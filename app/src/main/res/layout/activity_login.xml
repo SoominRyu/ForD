@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".LoginActivity"
+    tools:context=".MainActivity"
     android:gravity="center"
     android:background="@color/white"
 
@@ -30,23 +30,23 @@
         android:text="세상에 단 하나뿐인 가장 안전한 네비게이션"
         android:textColor="#2936C3"
         android:textSize="15dp"
-        />
+         />
 
     <EditText
-        android:id="@+id/userId"
+        android:id="@+id/userIdEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:padding="15dp"
-        android:textColor="#000000"
         android:textColorHint="#888888"
+        android:textColor="#000000"
         android:hint="ID"
         android:background="@drawable/login_box"
 
         android:layout_gravity="center_vertical|center_horizontal"/>
 
     <EditText
-        android:id="@+id/userPw"
+        android:id="@+id/userPwEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -116,7 +116,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/LoginBtn"
+        android:id="@+id/loginBtn"
         android:padding="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
