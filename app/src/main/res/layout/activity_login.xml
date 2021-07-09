@@ -33,7 +33,7 @@
         />
 
     <EditText
-        android:id="@+id/userIdEdit"
+        android:id="@+id/userId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -46,7 +46,7 @@
         android:layout_gravity="center_vertical|center_horizontal"/>
 
     <EditText
-        android:id="@+id/userPwEdit"
+        android:id="@+id/userPw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -116,7 +116,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/loginBtn"
+        android:id="@+id/LoginBtn"
         android:padding="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
