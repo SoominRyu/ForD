@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".SignIn3Activity"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="ForD"
+        android:textColor="#5140E2"
+        android:textSize="65dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gmarketsans_medium"
+        android:gravity="center_horizontal"
+        android:text="환영합니다!"
+        android:textColor="#3E3E3E"
+        android:textSize="40dp"
+        android:textStyle="normal"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/text2_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:text="오늘도 ForD와 함께\n안전운전 하세요!"
+        android:textColor="#3E3E3E"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/LoginBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/gmarketsans_medium"
+        android:text="로그인 하기"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="18dp"
+        />
+
+
+
+</LinearLayout>
