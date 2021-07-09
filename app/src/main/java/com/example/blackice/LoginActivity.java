@@ -29,8 +29,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // SignipActivity 연결 - 예현 만드는 중(7/9)
-                //Intent intent = new Intent(LoginActivity.this, SignInActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(LoginActivity.this, SignInActivity.class);
+                startActivity(intent);
             }
         });
 

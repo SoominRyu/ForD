@@ -17,9 +17,12 @@ public class SignIn3Activity extends AppCompatActivity {
 
         //LoginActivity로 연결
         Button goLogin = findViewById(R.id.LoginBtn3);
-        goLogin.setOnClickListener(view -> {
-            Intent intent = new Intent(SignIn3Activity.this, LoginActivity.class);
-            startActivity(intent);
+        goLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignIn3Activity.this, LoginActivity.class);
+                startActivity(intent);
+            }
         });
     }
 }
