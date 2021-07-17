@@ -54,6 +54,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.2.1')
     implementation 'com.google.firebase:firebase-analytics'
     implementation group: 'com.kakao.sdk', name: 'kakaonavi', version: project.KAKAO_SDK_VERSION
+    implementation "com.kakao.sdk:v2-navi:2.4.2"
 }
 repositories {
     mavenCentral()
