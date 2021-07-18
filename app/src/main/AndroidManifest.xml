@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.blackice">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -14,13 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
-
+        <activity android:name=".DRListActivity"></activity>
+        <activity android:name=".DRLIstActivity" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
-
-
 
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />

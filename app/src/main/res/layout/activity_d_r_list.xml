@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/listviewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:text="Show Toast"
+        >
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="신고내역 확인하기"
+            android:textColor="#25235A"
+            android:textSize="30dp"
+            android:textStyle="normal"
+            android:fontFamily="@font/gmarketsans_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="35dp"
+            android:text="신고내역 검색"
+            android:fontFamily="@font/gmarketsans_medium"
+            android:textColor="#3E3E3E"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/userIdEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/login_box"
+            android:hint="Search"
+            android:textColorHint="#D2D2D2"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawableRight="@drawable/ic_baseline_calendar_today_24"
+            android:padding="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@id/text2"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="신고내역"
+            android:fontFamily="@font/gmarketsans_bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:textStyle="normal"
+            android:background="@drawable/button_background3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/userIdEdit"
+            tools:ignore="MissingConstraints" />
+        <ListView
+            android:id="@+id/IdListview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        </LinearLayout>
+
+
+</ScrollView>
