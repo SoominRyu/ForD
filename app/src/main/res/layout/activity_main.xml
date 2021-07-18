@@ -1,14 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+   >
 
     <RelativeLayout
         android:id="@+id/map_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/inputLayout"
+        android:elevation="10dp"
+        android:background="@drawable/menu_box">
+
+        <ImageView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_location_on_24"
+            android:layout_marginStart="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/warning"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsans_medium"
+            android:text="주변"
+            android:textColor="#565454"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_marginStart="45dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/text_warning"
+            app:layout_constraintTop_toBottomOf="@id/location"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_warning_amber_24"
+            android:padding="10dp"
+            android:id="@+id/warning"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="50dp"
+            app:layout_constraintLeft_toRightOf="@id/location"
+            app:layout_constraintRight_toLeftOf="@+id/directions" />
+
+        <TextView
+            android:id="@+id/text_warning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsans_medium"
+            android:text="위험도로알림"
+            android:textColor="#565454"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_marginStart="40dp"
+            app:layout_constraintLeft_toRightOf="@id/text_location"
+            app:layout_constraintRight_toLeftOf="@+id/text_directions"
+            app:layout_constraintTop_toBottomOf="@id/warning"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_directions_24"
+            android:padding="10dp"
+            android:layout_marginStart="50dp"
+            android:id="@+id/directions"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintLeft_toRightOf="@id/warning" />
+
+        <TextView
+            android:id="@+id/text_directions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarketsans_medium"
+            android:text="길찾기"
+            android:textColor="#565454"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:layout_marginStart="35dp"
+            app:layout_constraintLeft_toRightOf="@id/text_warning"
+            app:layout_constraintTop_toBottomOf="@id/directions"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
