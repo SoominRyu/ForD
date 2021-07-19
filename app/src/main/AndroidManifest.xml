@@ -15,12 +15,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
 
-
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="20df30173bc48d000fd81a9132e12367" />
-
-
 
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
