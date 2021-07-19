@@ -15,7 +15,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity android:name=".DRListActivity"></activity>
-        <activity android:name=".DRLIstActivity" />
+
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"

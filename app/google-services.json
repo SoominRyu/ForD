@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "363201159554",
+    "project_id": "hi032-blackice",
+    "storage_bucket": "hi032-blackice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363201159554:android:58f418a92175b51551ef9b",
+        "android_client_info": {
+          "package_name": "com.example.blackice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363201159554-sck6eg3kg4ep72svs8gbm0ou6mts6q24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blackice",
+            "certificate_hash": "1a7f66789b3f83090e46043fc36a56cf5bd306c7"
+          }
+        },
+        {
+          "client_id": "363201159554-m9doov7tp4ttnjb004k57eu215ds7n0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxLKcNxnvRkQJspd8tYvlDkAFrsIb2hqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363201159554-m9doov7tp4ttnjb004k57eu215ds7n0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

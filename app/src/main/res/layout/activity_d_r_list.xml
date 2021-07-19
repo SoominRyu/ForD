@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:orientation="vertical"
-        android:text="Show Toast"
         >
 
 
@@ -88,12 +87,9 @@
             app:layout_constraintTop_toBottomOf="@id/userIdEdit"
             tools:ignore="MissingConstraints" />
         <ListView
-            android:id="@+id/IdListview"
+            android:id="@+id/listview1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            />
-
+            android:layout_height="match_parent"/>
         </LinearLayout>
 
 
