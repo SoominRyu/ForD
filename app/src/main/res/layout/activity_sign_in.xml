@@ -198,13 +198,5 @@
             app:layout_constraintTop_toBottomOf="@id/text5"
             tools:ignore="MissingConstraints" />
 
-
-
-
-
-
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
