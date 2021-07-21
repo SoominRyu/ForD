@@ -1,15 +1,14 @@
 <resources>
     <string name="app_name">Blackice</string>
-    <string name="selected_item">Selected item:</string>
+    <string name="title_activity_main_submenu">MainSubmenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-    <string-array name="Danger">
-        <item>신고 유형 선택하기</item>
-        <item>결빙</item>
-        <item>안개</item>
-        <item>도로파임</item>
-        <item>기타</item>
-
-    </string-array>
-
-
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>
