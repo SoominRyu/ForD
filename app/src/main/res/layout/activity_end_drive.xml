@@ -5,17 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MypageActivity"
-    android:background="#E2E2E2"
+    tools:context=".DangerRoad"
+    android:background="#ffffff"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/Joinlayout">
+        android:id="@+id/DRlayout">
 
-<!--        상단바-->
+        <!--        상단바-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -23,7 +23,10 @@
             android:background="@color/white"
             android:paddingTop="40dp"
             android:gravity="left|center_vertical"
-            tools:ignore="MissingConstraints">
+            tools:ignore="MissingConstraints"
+            android:elevation="20dp"
+            >
+
             <ImageView
                 android:id="@+id/back"
                 android:layout_width="50dp"
@@ -51,7 +54,7 @@
         <LinearLayout
             android:id="@+id/middle"
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="match_parent"
             android:layout_marginTop="3dp"
             android:padding="20dp"
             android:background="@color/white"
@@ -62,13 +65,14 @@
             app:layout_constraintVertical_bias="0.0">
 
 
+
             <TextView
                 android:id="@+id/sub_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/scdream7"
                 android:gravity="center_horizontal"
-                android:text="위험 도로 위치 저장 내역"
+                android:text="위험 도로 위치 신고"
                 android:textColor="#7D7D7D"
                 android:textSize="8pt"
                 tools:ignore="MissingConstraints"
@@ -84,8 +88,8 @@
                 android:fontFamily="@font/scdream7"
                 android:gravity="center_vertical|center_horizontal"
                 android:layout_gravity="center_vertical|center_horizontal"
-                android:text="경기도 부천시 지봉로 142 - 1"
-                android:textColor="@color/white"
+                android:hint="위치를 입력하세요."
+                android:textColorHint="@color/white"
                 android:textSize="10pt"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintTop_toBottomOf="@id/sub_title"/>
@@ -105,41 +109,29 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/address">
 
-
-                <TextView
-                    android:id="@+id/qna_content"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical|center_horizontal"
-                    android:layout_marginRight="20dp"
-                    android:fontFamily="@font/scdream3"
-                    android:gravity="left|center_horizontal"
-                    android:text="신고 내용을 선택하세요"
-                    android:textColor="#3E3E3E"
-                    android:textSize="8pt"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageView
-                    android:id="@+id/btn_expand_toggle"
-                    android:src="@drawable/tri"
-                    android:scaleType="centerCrop"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    tools:ignore="MissingConstraints"
-                    />
-
+                <Spinner
+                    android:id="@+id/spinner_DR"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:dropDownWidth="300dp"
+                    android:spinnerMode="dropdown" />
 
             </LinearLayout>
 
-        </LinearLayout>
+            <EditText
+                android:id="@+id/DRcontent"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="50dp"
+                android:gravity="top"
+                android:background="@drawable/box_shadow"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:hint="신고 상세 내역을 입력해주세요."
 
-        <LinearLayout
-            android:id="@+id/bottom"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal"
-            android:background="@color/white"
-            app:layout_constraintTop_toBottomOf="@id/middle">
+                />
 
             <Button
                 android:id="@+id/Btn"
@@ -147,6 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="100dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/button_background"
                 android:fontFamily="@font/scdream6"
@@ -155,7 +148,25 @@
                 android:textSize="20dp"
                 />
 
+
+            <TextView
+
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gmarketsans_medium"
+                android:text="다음에 신고하기"
+                android:textColor="#5E5E5E"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentStart="true"/>
+
+
         </LinearLayout>
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
