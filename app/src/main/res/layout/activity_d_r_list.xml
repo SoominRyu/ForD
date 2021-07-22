@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="ExtraText"
-    android:background="#5140E2">
+    tools:ignore="ExtraText">
 
 
 
@@ -17,6 +16,7 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical"
         android:text="Show Toast"
+        android:background="#5140E2"
 
         >
 

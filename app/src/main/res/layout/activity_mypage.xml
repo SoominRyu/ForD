@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:id="@+id/Joinlayout">
 
-<!--        상단바-->
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -23,7 +23,9 @@
             android:background="@color/white"
             android:paddingTop="40dp"
             android:gravity="left|center_vertical"
-            tools:ignore="MissingConstraints">
+            tools:ignore="MissingConstraints"
+            >
+
             <ImageView
                 android:id="@+id/back"
                 android:layout_width="50dp"

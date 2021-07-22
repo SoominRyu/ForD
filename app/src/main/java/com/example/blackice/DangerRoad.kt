@@ -1,7 +1,9 @@
 package com.example.blackice
 
 import android.app.Activity
+import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -13,10 +15,27 @@ import android.widget.*
 
 
 class DangerRoad : AppCompatActivity() {
+    //카카오맵 패키지
+    val packagename_kakaomap = "net.daum.android.map"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_danger_road)
+
+
+        kakaoMap.setOnClickListener{
+            try{
+                val intent = packageManager.getLaunchIntentForPackage(packagename_kakaomap)
+                intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                startActivity(intent)
+
+            }catch(e:Exception){
+                val url = "market://details?id=$packagename_kakaomap"
+                val i = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                startActivity(i)
+            }
+
+        }
 
         // access the items of the list
         val danger = resources.getStringArray(R.array.Danger)
