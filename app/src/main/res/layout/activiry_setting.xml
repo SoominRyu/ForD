@@ -58,13 +58,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_marginBottom="1dp"
                 android:background="@color/white"
                 >
                 <LinearLayout
                     android:id="@+id/middle_1"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
                     android:layout_marginLeft="20dp"
                     android:orientation="vertical">
 
@@ -96,7 +98,7 @@
                     android:id="@+id/switch1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:checked="false"
                     android:textOff=""
                     android:textOn=""
@@ -110,7 +112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
+                android:layout_marginBottom="1dp"
                 android:background="@color/white"
                 >
                 <LinearLayout
@@ -119,6 +121,8 @@
                     android:orientation="vertical"
                     android:id="@+id/middle_2"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
                     >
                     <TextView
                         android:id="@+id/text4"
@@ -148,7 +152,7 @@
                     android:id="@+id/switch2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:checked="false"
                     android:switchMinWidth="20dp"
                     android:textOff=""
@@ -171,7 +175,7 @@
                     android:orientation="vertical"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="15dp"
                     android:id="@+id/middle_3"
                     >
 
@@ -204,7 +208,7 @@
                     android:id="@+id/switch3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:checked="false"
                     android:switchMinWidth="20dp"
                     android:textOff=""
@@ -229,6 +233,8 @@
                     android:fontFamily="@font/gmarketsans_medium"
                     android:layout_marginLeft="48dp"
                     android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
                     android:text="이용 약관 및 정책 확인하기"
                     android:textColor="#3E3E3E"
                     android:textSize="8pt"
