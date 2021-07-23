@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DRwarningActivity"></activity>
+
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
@@ -31,7 +31,8 @@
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".DRListActivity">
+        <activity android:name=".DRListActivity" />
+        <activity android:name=".DRwarningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
