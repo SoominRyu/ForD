@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:id="@+id/Joinlayout">
 
-<!--        상단바-->
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
