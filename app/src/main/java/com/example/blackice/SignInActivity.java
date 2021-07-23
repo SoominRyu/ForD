@@ -46,28 +46,72 @@ public class SignInActivity extends AppCompatActivity {
             }
         });
 
-        button_cancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SignInActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
 
         button_ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(checkBox_all.isChecked() == true || checkBox1.isChecked() ==true&&checkBox2.isChecked() ==true&&checkBox3.isChecked() ==true) {
-                    Intent intent = new Intent(SignInActivity.this, SignIn2Activity.class);
-                    startActivity(intent);
-                }
-                else{
-                    Toast.makeText(getApplicationContext(),
-                            "약관을 모두 동의해주세요.", Toast.LENGTH_LONG).show();
-                }
+                Intent intent = new Intent(SignInActivity.this, SignIn2Activity.class);
+
+                button_cancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(SignInActivity.this, LoginActivity.class);
+                        startActivity(intent);
+                    }
+                });
+
+
+                button_cancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        if (checkBox_all.isChecked() == true || checkBox1.isChecked() == true && checkBox2.isChecked() == true && checkBox3.isChecked() == true) {
+                            Intent intent = new Intent(SignInActivity.this, LoginActivity.class);
+
+                            button_ok.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if (checkBox_all.isChecked() == true || checkBox1.isChecked() == true && checkBox2.isChecked() == true && checkBox3.isChecked() == true) {
+                                        Intent intent = new Intent(SignInActivity.this, SignIn2Activity.class);
+                                        startActivity(intent);
+                                    } else {
+                                        Toast.makeText(getApplicationContext(),
+                                                "약관을 모두 동의해주세요.", Toast.LENGTH_LONG).show();
+                                    }
+                                }
+                            });
+
+                        }
+                    }
+
+                });
             }
         });
 
-    }
 
+        button_cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (checkBox_all.isChecked() == true || checkBox1.isChecked() == true && checkBox2.isChecked() == true && checkBox3.isChecked() == true) {
+                    Intent intent = new Intent(SignInActivity.this, LoginActivity.class);
+
+                    button_ok.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            if (checkBox_all.isChecked() == true || checkBox1.isChecked() == true && checkBox2.isChecked() == true && checkBox3.isChecked() == true) {
+                                Intent intent = new Intent(SignInActivity.this, SignIn2Activity.class);
+                                startActivity(intent);
+                            } else {
+                                Toast.makeText(getApplicationContext(),
+                                        "약관을 모두 동의해주세요.", Toast.LENGTH_LONG).show();
+                            }
+                        }
+                    });
+
+                }
+            }
+
+        });
+            }
+        });
+    }
 }

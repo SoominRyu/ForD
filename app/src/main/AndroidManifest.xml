@@ -15,21 +15,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DRListActivity"></activity>
+
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
+            android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
 
+        <activity android:name=".MainActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".MypagePopupActivity" android:theme="@style/Theme.AppCompat.Dialog"/>
-        <activity android:name=".MypageActivity"/>
-        <activity android:name=".DangerRoad">
+        <activity android:name=".DangerRoad" />
+        <activity
+            android:name=".MypagePopupActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".DRListActivity" />
+        <activity android:name=".DRwarningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -7,8 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <net.daum.mf.map.api.MapView
-        android:id="@+id/map_view"
+    <RelativeLayout
+        android:id="@+id/map_view1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
