@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity"
-    android:background="@color/white">
+    tools:ignore="ExtraText"
+    android:background="#ffffff">
+
+
 
     <LinearLayout
         android:id="@+id/listviewlayout"
@@ -17,9 +17,8 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical"
         android:text="Show Toast"
+
         >
-
-
 
         <TextView
             android:id="@+id/text1"
@@ -87,14 +86,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/userIdEdit"
             tools:ignore="MissingConstraints" />
+
         <ListView
             android:id="@+id/IdListview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:layout_marginBottom="80dp"
             />
 
-        </LinearLayout>
+    </LinearLayout>
 
 
-</ScrollView>
+</RelativeLayout>
