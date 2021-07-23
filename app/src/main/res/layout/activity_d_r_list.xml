@@ -17,6 +17,7 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical"
         android:text="Show Toast"
+        android:background="#5140E2"
 
         >
 
@@ -92,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="80dp"
-            />
+            android:layout_marginTop="15dp"/>
 
     </LinearLayout>
 
