@@ -66,8 +66,10 @@ public class SignInActivity extends AppCompatActivity {
                             "약관을 모두 동의해주세요.", Toast.LENGTH_LONG).show();
                 }
             }
-        });
 
+        });
+            }
+        });
     }
 
 }

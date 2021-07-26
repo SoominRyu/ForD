@@ -25,9 +25,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.util.Log;
 
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 
@@ -49,15 +46,13 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
     private static final int PERMISSIONS_REQUEST_CODE = 100;
     String[] REQUIRED_PERMISSIONS  = {Manifest.permission.ACCESS_FINE_LOCATION};
 
-    private ImageView warning;
+
 
 
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        warning = findViewById(R.id.warning);
 
         setContentView(R.layout.activity_main);
         Log.d("@@@", "oncreate-멥뷰 전");
@@ -74,21 +69,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             checkRunTimePermission();
         }
 
-        warning.setOnClickListener(new MyListener());
-
     }
-
-    class MyListener implements View.OnClickListener {
-
-
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(MainActivity.this, DRListActivityKt.class);
-            startActivity(intent);
-        }
-
-    } // end MyListener()
-
 
     @Override
     protected void onDestroy() {
@@ -135,7 +116,17 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
     }
 
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
+        switch (requestCode) {
+
+            case GPS_ENABLE_REQUEST_CODE:
+
+                //사용자가 GPS 활성 시켰는지 검사
+                if (checkLocationServicesStatus()) {
+                    if (checkLocationServicesStatus()) {
 
     /*
      * ActivityCompat.requestPermissions를 사용한 퍼미션 요청의 결과를 리턴받는 메소드입니다.
@@ -201,7 +192,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
 
 
             // 3.  위치 값을 가져올 수 있음
-            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
 
 
         } else {  //2. 퍼미션 요청을 허용한 적이 없다면 퍼미션 요청이 필요합니다. 2가지 경우(3-1, 4-1)가 있습니다.
