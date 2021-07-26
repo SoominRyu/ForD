@@ -116,7 +116,17 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
     }
 
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
 
+        switch (requestCode) {
+
+            case GPS_ENABLE_REQUEST_CODE:
+
+                //사용자가 GPS 활성 시켰는지 검사
+                if (checkLocationServicesStatus()) {
+                    if (checkLocationServicesStatus()) {
 
     /*
      * ActivityCompat.requestPermissions를 사용한 퍼미션 요청의 결과를 리턴받는 메소드입니다.
@@ -267,3 +277,4 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
                 || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
     }
 }
+
