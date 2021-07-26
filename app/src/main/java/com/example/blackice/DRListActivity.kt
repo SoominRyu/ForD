@@ -11,11 +11,11 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
-var cnt=0
+
 
 
 class DRListActivity : AppCompatActivity() {
-
+    var cnt=0
     var firebaseRef = Firebase.database.getReference("List")
 
     val LIST_MENU: MutableList<String> = mutableListOf<String>("")

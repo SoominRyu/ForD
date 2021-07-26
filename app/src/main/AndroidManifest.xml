@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.blackice">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -17,10 +18,12 @@
         android:usesCleartextTraffic="true">
 
 
+
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
-        <activity android:name=".DRwarningActivity"/>
+            android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
+
+
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
@@ -32,8 +35,8 @@
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".AroundActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".DRwarningActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
