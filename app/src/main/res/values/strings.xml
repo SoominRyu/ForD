@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Blackice</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Danger">
+        <item>신고 유형 선택하기</item>
+        <item>결빙</item>
+        <item>안개</item>
+        <item>도로파임</item>
+        <item>기타</item>
+
+    </string-array>
+
+
+</resources>
