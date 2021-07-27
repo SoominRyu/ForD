@@ -20,7 +20,7 @@
             android:layout_height="100dp"
             android:id="@+id/top"
             android:background="@color/white"
-            android:paddingTop="40dp"
+            android:paddingTop="50dp"
             android:gravity="left|center_vertical"
 
             tools:ignore="MissingConstraints">
@@ -41,7 +41,7 @@
                 android:text="환경설정"
                 android:textColor="#25235A"
                 android:textSize="26dp"
-                android:fontFamily="@font/scdream7"
+                android:fontFamily="@font/scdream5"
                 android:textStyle="bold"
                 />
         </RelativeLayout>
@@ -77,11 +77,11 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="10dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:fontFamily="@font/scdream5"
                         android:gravity="center"
                         android:text="음성 안내"
                         android:textColor="#3E3E3E"
-                        android:textSize="8pt"
+                        android:textSize="10pt"
                         android:textStyle="bold" />
 
                     <TextView
@@ -89,11 +89,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/scdream3"
                         android:gravity="center"
                         android:text="경고 메세지를 음성으로 안내합니다."
                         android:textColor="#777777"
-                        android:textSize="5pt" />
+                        android:textSize="7pt" />
                 </LinearLayout>
                 <Switch
                     android:id="@+id/switch1"
@@ -131,22 +132,23 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="10dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:fontFamily="@font/scdream5"
                         android:gravity="center"
                         android:text="HUD 사용"
                         android:textColor="#3E3E3E"
-                        android:textSize="8pt"
+                        android:textSize="10pt"
                         android:textStyle="bold" />
                     <TextView
                         android:id="@+id/text5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/scdream3"
                         android:gravity="center"
                         android:text="HUD 기능과 함께 ForD를 이용합니다."
                         android:textColor="#777777"
-                        android:textSize="5pt" />
+                        android:textSize="7pt" />
                 </LinearLayout>
 
                 <Switch
@@ -186,11 +188,11 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
                         android:layout_marginTop="10dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:fontFamily="@font/scdream5"
                         android:gravity="center"
                         android:text="출발지를 내 위치로"
                         android:textColor="#3E3E3E"
-                        android:textSize="8pt"
+                        android:textSize="10pt"
                         android:textStyle="bold" />
 
                     <TextView
@@ -198,11 +200,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="28dp"
-                        android:fontFamily="@font/gmarketsans_medium"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/scdream3"
                         android:gravity="center"
                         android:text="길찾기 출발지를 항상 내 위치로 설정합니다."
                         android:textColor="#777777"
-                        android:textSize="5pt" />
+                        android:textSize="6pt" />
                 </LinearLayout>
 
                 <Switch
@@ -221,24 +224,25 @@
             <!--  이용 약관 및 정책 확인하기  -->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="90dp"
                 android:id="@+id/middle_4"
                 android:gravity="left|center_vertical"
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="1dp"
+                android:paddingTop="10dp"
                 android:background="@color/white">
                 <TextView
                     android:id="@+id/text8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/gmarketsans_medium"
+                    android:fontFamily="@font/scdream5"
                     android:layout_marginLeft="48dp"
                     android:layout_centerVertical="true"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="15dp"
                     android:text="이용 약관 및 정책 확인하기"
                     android:textColor="#3E3E3E"
-                    android:textSize="8pt"
+                    android:textSize="10pt"
                     android:textStyle="bold" />
 
                 <ImageView
@@ -266,11 +270,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="48dp"
                     android:layout_marginTop="15dp"
-                    android:fontFamily="@font/gmarketsans_medium"
+                    android:fontFamily="@font/scdream5"
                     android:gravity="center"
                     android:text="버전"
                     android:textColor="#3E3E3E"
-                    android:textSize="8pt"
+                    android:textSize="10pt"
                     android:textStyle="bold" />
 
                 <TextView
@@ -278,21 +282,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="48dp"
-                    android:fontFamily="@font/gmarketsans_medium"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/scdream3"
                     android:gravity="center"
                     android:text="현재 버전 1.0.0"
                     android:textColor="#777777"
-                    android:textSize="5pt" />
+                    android:textSize="7pt" />
                 <TextView
                     android:id="@+id/text11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="48dp"
-                    android:fontFamily="@font/gmarketsans_medium"
+                    android:fontFamily="@font/scdream3"
                     android:gravity="center"
                     android:text="최신 버전 1.0.0"
                     android:textColor="#777777"
-                    android:textSize="5pt" />
+                    android:textSize="7pt" />
             </LinearLayout>
         </LinearLayout>
 

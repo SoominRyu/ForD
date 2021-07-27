@@ -17,33 +17,49 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical"
         android:text="Show Toast"
-        android:background="#5140E2"
+
 
         >
 
-        <TextView
-            android:id="@+id/text1"
+        <!--  상단바  -->
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:gravity="center_horizontal"
-            android:text="신고내역 확인하기"
-            android:textColor="#25235A"
-            android:textSize="30dp"
-            android:textStyle="normal"
-            android:fontFamily="@font/gmarketsans_bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="MissingConstraints" />
+            android:layout_height="100dp"
+            android:id="@+id/top"
+            android:background="@color/white"
+            android:paddingTop="50dp"
+            android:gravity="left|center_vertical"
+
+            >
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/back"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="14dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="신고내역 확인하기"
+                android:textColor="#25235A"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream5"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="35dp"
             android:text="신고내역 검색"
-            android:fontFamily="@font/gmarketsans_medium"
+            android:fontFamily="@font/scdream3"
             android:textColor="#3E3E3E"
             android:textSize="20dp"
             android:textStyle="normal"
@@ -57,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="15dp"
             android:background="@drawable/login_box"
             android:hint="Search"
@@ -76,9 +92,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-
             android:text="신고내역"
-            android:fontFamily="@font/gmarketsans_bold"
+            android:fontFamily="@font/scdream5"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
             android:padding="15dp"
@@ -93,7 +108,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="80dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="15dp"
+            />
 
     </LinearLayout>
 
