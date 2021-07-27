@@ -16,10 +16,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:paddingBottom="15dp"
         android:layout_alignParentBottom="true"
         android:id="@+id/menuLayout"
         android:elevation="10dp"
-        android:background="@drawable/menu_box">
+        android:background="@drawable/map_bot">
 
         <ImageView
             android:id="@+id/location"
@@ -36,7 +37,7 @@
             android:id="@+id/text_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/gmarketsans_medium"
+            android:fontFamily="@font/scdream3"
             android:text="주변"
             android:textColor="#565454"
             android:textSize="15dp"
@@ -63,7 +64,7 @@
             android:id="@+id/text_warning"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/gmarketsans_medium"
+            android:fontFamily="@font/scdream3"
             android:text="위험도로알림"
             android:textColor="#565454"
             android:textSize="15dp"
@@ -88,12 +89,12 @@
             android:id="@+id/text_directions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/gmarketsans_medium"
+            android:fontFamily="@font/scdream3"
             android:text="길찾기"
             android:textColor="#565454"
             android:textSize="15dp"
             android:textStyle="normal"
-            android:layout_marginStart="55dp"
+            android:layout_marginStart="53dp"
             app:layout_constraintLeft_toRightOf="@id/text_warning"
             app:layout_constraintTop_toBottomOf="@id/directions"
             tools:ignore="MissingConstraints" />

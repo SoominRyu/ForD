@@ -65,7 +65,6 @@
             app:layout_constraintVertical_bias="0.0">
 
 
-
             <TextView
                 android:id="@+id/sub_title"
                 android:layout_width="wrap_content"
@@ -75,8 +74,7 @@
                 android:text="위험 도로 위치 신고"
                 android:textColor="#7D7D7D"
                 android:textSize="8pt"
-                tools:ignore="MissingConstraints"
-                />
+                tools:ignore="MissingConstraints" />
 
             <Button
                 android:id="@+id/kakaoMap"
@@ -100,6 +98,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/box_shadow"
+                android:fontFamily="@font/scdream4"
                 android:textColorHint="#888888"
                 android:textColor="#000000"
                 android:textSize="7pt"
@@ -112,6 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="center_horizontal"
+                android:fontFamily="@font/scdream3"
                 android:text="(지도 - 해당 위치 길게 클릭 - 공유하기 - URL복사 - 위 칸에 붙여넣기)"
                 android:textColor="#7D7D7D"
                 android:textSize="5.6pt"
@@ -148,10 +148,12 @@
                 android:layout_width="370dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="5dp"
+                android:padding="10dp"
                 android:gravity="top"
                 android:background="@drawable/box_shadow"
                 android:textColorHint="#888888"
                 android:textColor="#000000"
+                android:fontFamily="@font/scdream3"
                 android:hint="  신고 상세 내역을 입력해주세요."
                 />
 
