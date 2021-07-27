@@ -17,12 +17,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
 
-
-
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
-
+            android:value="20df30173bc48d000fd81a9132e12367" />
 
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
@@ -35,8 +32,8 @@
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".DRwarningActivity">
+        <activity android:name=".DRwarningActivity"/>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
