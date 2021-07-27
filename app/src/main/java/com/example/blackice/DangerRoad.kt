@@ -9,7 +9,6 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_danger_road.*
 import android.widget.*
-
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
@@ -17,9 +16,10 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 
-var cnt = 0
 
 class DangerRoad : AppCompatActivity() {
+    var cnt = 0
+
     //카카오맵 패키지
     val packagename_kakaomap = "net.daum.android.map"
 
