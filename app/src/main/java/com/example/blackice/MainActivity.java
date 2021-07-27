@@ -1,42 +1,24 @@
 package com.example.blackice;
 
 import android.Manifest;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-
 import android.content.DialogInterface;
-
 import android.content.Intent;
-
 import android.content.pm.PackageManager;
-
 import android.location.LocationManager;
-
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-
-import androidx.core.app.ActivityCompat;
-
-import androidx.core.content.ContextCompat;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.util.Log;
-
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
-
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import net.daum.mf.map.api.MapPoint;
 import net.daum.mf.map.api.MapReverseGeoCoder;
 import net.daum.mf.map.api.MapView;
-
-import static java.sql.DriverManager.println;
 
 public class MainActivity extends AppCompatActivity implements MapView.CurrentLocationEventListener, MapReverseGeoCoder.ReverseGeoCodingResultListener {
 
@@ -70,6 +52,18 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             Log.d("@@@", "oncreate-checkRunTimePermission()");
             checkRunTimePermission();
         }
+
+        ImageView test;
+        test = findViewById(R.id.location);
+        test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, DRwarningActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
 
     }
 
@@ -151,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             if (check_result) {
                 Log.d("@@@", "start");
                 //위치 값을 가져올 수 있음
-                mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+                mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
             } else {
                 // 거부한 퍼미션이 있다면 앱을 사용할 수 없는 이유를 설명해주고 앱을 종료합니다.2 가지 경우가 있습니다.
 
@@ -186,7 +180,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
 
 
             // 3.  위치 값을 가져올 수 있음
-            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
 
 
         } else {  //2. 퍼미션 요청을 허용한 적이 없다면 퍼미션 요청이 필요합니다. 2가지 경우(3-1, 4-1)가 있습니다.
