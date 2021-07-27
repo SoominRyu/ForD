@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
+            android:value="eb166cb66cde918ee3734268f817fb1e" />
         <activity android:name=".DRwarningActivity"/>
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
@@ -32,8 +32,8 @@
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".AroundActivity">
+        <activity android:name=".AroundActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
