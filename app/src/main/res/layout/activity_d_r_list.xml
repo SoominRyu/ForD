@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical"
         android:text="Show Toast"
-        android:background="#5140E2"
+
 
         >
 

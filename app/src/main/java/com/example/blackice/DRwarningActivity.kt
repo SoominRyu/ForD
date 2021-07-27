@@ -1,12 +1,17 @@
 package com.example.blackice
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebChromeClient
+import android.webkit.WebViewClient
+import android.widget.AdapterView
 import android.widget.BaseAdapter
 import android.widget.ListView
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -15,9 +20,11 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_d_r_list.view.text2
 import kotlinx.android.synthetic.main.activity_d_r_list.view.text3
+import kotlinx.android.synthetic.main.custom_dialog.view.*
 import kotlinx.android.synthetic.main.drw_listview.view.*
 
-data class ListViewItem(val title: String, val subTitle: String, val date: String)
+
+data class ListViewItem(val title: String, val subTitle: String, val date: String, val locate: String, val user: String)
 
 class ListViewAdapter(private val items: MutableList<ListViewItem>): BaseAdapter() {
 
@@ -41,6 +48,12 @@ class ListViewAdapter(private val items: MutableList<ListViewItem>): BaseAdapter
         if (convertView != null) {
             convertView.text4.text = item.date
         }
+        if (convertView != null) {
+            convertView.text5.text = item.locate
+        }
+        if (convertView != null) {
+            convertView.text6.text = item.user
+        }
 
         return convertView
     }
@@ -56,6 +69,7 @@ class DRwarningActivity : AppCompatActivity() {
  //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_d_rwarning)
@@ -69,9 +83,47 @@ class DRwarningActivity : AppCompatActivity() {
         listview.adapter = adapter
 
 
+
+
+
         initcount(listview,
                 adapter)
 
+        val builder = AlertDialog.Builder(this)
+        listview.onItemClickListener = AdapterView.OnItemClickListener { parent, v, position, id -> // get TextView's Text.
+
+            val dialogView = layoutInflater.inflate(R.layout.custom_dialog, null)
+
+            dialogView.dialoglocate.setText("위치: " + LIST_MENU[position].title.toString())
+            dialogView.dialogdate.setText("신고 시간: " + LIST_MENU[position].date.toString())
+            dialogView.dialogLog.setText("신고 내용)\n" + LIST_MENU[position].subTitle.toString())
+            dialogView.dialogID.setText(LIST_MENU[position].user.toString())
+           // dialogView.webView("https://www.naver.com/")
+
+
+
+            val url_test=LIST_MENU[position].locate.split("kko.to/")
+            val url=url_test[1]
+            Log.w("KEY-url", url)
+
+
+            //dialogView.webView.getSettings().setJavaScriptEnabled(true) //자바스크립트 허용
+            dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
+           // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
+            dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
+
+            dialogView.webView.webViewClient= WebViewClient()
+
+
+
+
+            builder.setView(dialogView)
+                    .setNegativeButton("닫기") { dialogInterface, i ->
+                        /* 취소일 때 아무 액션이 없으므로 빈칸 */
+                    }
+
+                    .show()
+        }
 
 
     }
@@ -101,7 +153,7 @@ class DRwarningActivity : AppCompatActivity() {
                 override fun onDataChange(snapshot: DataSnapshot) {
 
 
-                    var key_date=snapshot.value.toString()
+                    var key_date = snapshot.value.toString()
                     Log.w("KEY-date", key_date)
                     data_classify(listview, adapter, i, key_date)
                 }
@@ -143,12 +195,9 @@ class DRwarningActivity : AppCompatActivity() {
                 val key_content = snapshot.value.toString()
                 Log.w("KEY-content", key_content)
 
-                val key= "["+key_classify+"] "+ key_date+ "\n"+key_content
 
-                //LIST_MENU.add(key)
-                LIST_MENU.add(ListViewItem( key_classify+" 구역 안내", key_content, key_date ))
-                adapter.notifyDataSetChanged()
-                // data_content(listview, adapter, cnt, key_date, key_classify)
+
+                data_locate(listview, adapter, i, key_date, key_classify, key_content)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -157,4 +206,39 @@ class DRwarningActivity : AppCompatActivity() {
         })
 
     }
+    private fun data_locate(listview: ListView?, adapter: ListViewAdapter, i: Int, key_date: String, key_classify: String, key_content: String) {
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRLocate").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+
+                val key_locate = snapshot.value.toString()
+                data_user(listview, adapter, i, key_date, key_classify, key_content, key_locate)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
+    }
+    private fun data_user(listview: ListView?, adapter: ListViewAdapter, i: Int, key_date: String, key_classify: String, key_content: String, key_locate: String) {
+
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRUser").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+
+
+                val key_user = snapshot.value.toString()
+
+
+                //LIST_MENU.add(key)
+                LIST_MENU.add(ListViewItem(key_classify + " 구역 안내", key_content, key_date, key_locate, key_user))
+                adapter.notifyDataSetChanged()
+
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
+
+    }
+
 }
