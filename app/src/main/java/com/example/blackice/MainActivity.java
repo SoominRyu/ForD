@@ -16,17 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.util.Log;
-
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-
-
 import net.daum.mf.map.api.MapPoint;
 import net.daum.mf.map.api.MapReverseGeoCoder;
 import net.daum.mf.map.api.MapView;
@@ -179,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
 
 
             // 3.  위치 값을 가져올 수 있음
-            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
 
 
         } else {  //2. 퍼미션 요청을 허용한 적이 없다면 퍼미션 요청이 필요합니다. 2가지 경우(3-1, 4-1)가 있습니다.
