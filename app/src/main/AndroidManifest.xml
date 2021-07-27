@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -19,21 +19,31 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
+<<<<<<< HEAD
             android:value="20df30173bc48d000fd81a9132e12367" />
 
+=======
+            android:value="eb166cb66cde918ee3734268f817fb1e" />
+>>>>>>> 9a42c8f8eb66b213623f9b629fce26c8cc9b8a6a
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".DangerRoad" />
+
         <activity
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
         <activity android:name=".DRwarningActivity"/>
+<<<<<<< HEAD
         <activity android:name=".MainActivity">
+=======
+        <activity android:name=".AroundActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".DangerRoad" >
+>>>>>>> 9a42c8f8eb66b213623f9b629fce26c8cc9b8a6a
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

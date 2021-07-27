@@ -1,5 +1,6 @@
 package com.example.blackice
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_danger_road.*
 import android.widget.*
+import androidx.appcompat.app.AlertDialog
 
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -17,9 +19,10 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 
 
-var cnt = 0
 
 class DangerRoad : AppCompatActivity() {
+    var cnt = 0
+
     //카카오맵 패키지
     val packagename_kakaomap = "net.daum.android.map"
 
@@ -28,7 +31,7 @@ class DangerRoad : AppCompatActivity() {
     var drtype = ""
     var drcontent = ""
     var user_id = "test"
-    var dr_date = "2021-07-23 11:00 test"
+    var dr_date = "2021-07-23 11:00"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -82,6 +85,7 @@ class DangerRoad : AppCompatActivity() {
 
 
         Btn.setOnClickListener {
+            
             //edittext 값이 다 들어갔는지 확인
             kakaourl = kakaourlEdit.text.toString()
             drcontent = drcontentEdit.text.toString()
@@ -90,6 +94,7 @@ class DangerRoad : AppCompatActivity() {
             dr_date
 
             initcount()
+
 
 
 
