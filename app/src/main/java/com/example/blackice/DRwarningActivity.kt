@@ -1,12 +1,15 @@
 package com.example.blackice
 
 import android.annotation.SuppressLint
+import android.net.http.SslError
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebChromeClient
+import android.webkit.SslErrorHandler
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.AdapterView
 import android.widget.BaseAdapter
@@ -69,7 +72,7 @@ class DRwarningActivity : AppCompatActivity() {
  //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("SetTextI18n", "SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_d_rwarning)
@@ -103,17 +106,64 @@ class DRwarningActivity : AppCompatActivity() {
 
 
             val url_test=LIST_MENU[position].locate.split("kko.to/")
-            val url=url_test[1]
+            val url="http://kko.to/" +url_test[1]
             Log.w("KEY-url", url)
 
 
             //dialogView.webView.getSettings().setJavaScriptEnabled(true) //자바스크립트 허용
-            dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
+
            // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
-            dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
-
+           // dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
+           // dialogView.webView.settings.setSupportMultipleWindows(false)
+           dialogView.webView.settings.javaScriptEnabled = true
+            dialogView.webView.loadUrl(url) //웹뷰 실행
             dialogView.webView.webViewClient= WebViewClient()
+            dialogView.webView.webViewClient = object : WebViewClient() {
+                var cnt=false
+                override fun onPageFinished(view: WebView?, url: String?) {
 
+
+
+                    if (url != null) {
+                        //dialogView.webView.loadUrl("https://map.kakao.com/link/map/18577297")
+                        if(!(url.contains("kko.to")) && !cnt)
+                        {
+                            val url_test= url.split("map")
+                            var url01= "https://m.map" +url_test[1]//
+
+                            val url_test2= url01.split("q=")
+                            url01="https://m.map.kakao.com/actions/searchView?q="+url_test2[1]+"#!/all/map/place"
+                            Log.w("KEY-url--", url.toString())
+                            Log.w("KEY-url01", url01.toString())
+                            dialogView.webView.loadUrl(url01)
+                            cnt = true
+                        }
+
+
+                    }
+                }
+                override fun onReceivedSslError(
+                        view: WebView?,
+                        handler: SslErrorHandler,
+                        error: SslError?
+                ) {
+                    handler.proceed() // Ignore SSL certificate errors
+                }
+
+                override fun shouldOverrideUrlLoading(
+                        view: WebView?,
+                        request: WebResourceRequest?
+                ): Boolean {
+                    view?.loadUrl(request?.getUrl().toString());
+                    return true;
+                }
+
+            }
+
+            //dialogView.webView.settings.cacheMode = WebSettings.LOAD_NO_CACHE
+
+            //dialogView.webView.settings.domStorageEnabled = true
+            //dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
 
 
 
