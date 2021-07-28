@@ -1,12 +1,15 @@
 package com.example.blackice
 
 import android.annotation.SuppressLint
+import android.net.http.SslError
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebChromeClient
+import android.webkit.SslErrorHandler
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.AdapterView
 import android.widget.BaseAdapter
@@ -66,20 +69,20 @@ class DRwarningActivity : AppCompatActivity() {
     var cnt=0
     var firebaseRef = Firebase.database.getReference("List")
 
- //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
+    //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("SetTextI18n", "SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_d_rwarning)
 
         val listview = findViewById<ListView>(R.id.IdListview)
-       // val items = mutableListOf<ListViewItem>()
-      //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
+        // val items = mutableListOf<ListViewItem>()
+        //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
 
 
-       val adapter = ListViewAdapter(LIST_MENU)
+        val adapter = ListViewAdapter(LIST_MENU)
         listview.adapter = adapter
 
 
@@ -87,7 +90,7 @@ class DRwarningActivity : AppCompatActivity() {
 
 
         initcount(listview,
-                adapter)
+            adapter)
 
         val builder = AlertDialog.Builder(this)
         listview.onItemClickListener = AdapterView.OnItemClickListener { parent, v, position, id -> // get TextView's Text.
@@ -98,31 +101,78 @@ class DRwarningActivity : AppCompatActivity() {
             dialogView.dialogdate.setText("신고 시간: " + LIST_MENU[position].date.toString())
             dialogView.dialogLog.setText("신고 내용)\n" + LIST_MENU[position].subTitle.toString())
             dialogView.dialogID.setText(LIST_MENU[position].user.toString())
-           // dialogView.webView("https://www.naver.com/")
+            // dialogView.webView("https://www.naver.com/")
 
 
 
             val url_test=LIST_MENU[position].locate.split("kko.to/")
-            val url=url_test[1]
+            val url="http://kko.to/" +url_test[1]
             Log.w("KEY-url", url)
 
 
             //dialogView.webView.getSettings().setJavaScriptEnabled(true) //자바스크립트 허용
-            dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
-           // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
-            dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
 
+            // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
+            // dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
+            // dialogView.webView.settings.setSupportMultipleWindows(false)
+            dialogView.webView.settings.javaScriptEnabled = true
+            dialogView.webView.loadUrl(url) //웹뷰 실행
             dialogView.webView.webViewClient= WebViewClient()
+            dialogView.webView.webViewClient = object : WebViewClient() {
+                var cnt=false
+                override fun onPageFinished(view: WebView?, url: String?) {
 
+
+
+                    if (url != null) {
+                        //dialogView.webView.loadUrl("https://map.kakao.com/link/map/18577297")
+                        if(!(url.contains("kko.to")) && !cnt)
+                        {
+                            val url_test= url.split("map")
+                            var url01= "https://m.map" +url_test[1]//
+
+                            val url_test2= url01.split("q=")
+                            url01="https://m.map.kakao.com/actions/searchView?q="+url_test2[1]+"#!/all/map/place"
+                            Log.w("KEY-url--", url.toString())
+                            Log.w("KEY-url01", url01.toString())
+                            dialogView.webView.loadUrl(url01)
+                            cnt = true
+                        }
+
+
+                    }
+                }
+                override fun onReceivedSslError(
+                    view: WebView?,
+                    handler: SslErrorHandler,
+                    error: SslError?
+                ) {
+                    handler.proceed() // Ignore SSL certificate errors
+                }
+
+                override fun shouldOverrideUrlLoading(
+                    view: WebView?,
+                    request: WebResourceRequest?
+                ): Boolean {
+                    view?.loadUrl(request?.getUrl().toString());
+                    return true;
+                }
+
+            }
+
+            //dialogView.webView.settings.cacheMode = WebSettings.LOAD_NO_CACHE
+
+            //dialogView.webView.settings.domStorageEnabled = true
+            //dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
 
 
 
             builder.setView(dialogView)
-                    .setNegativeButton("닫기") { dialogInterface, i ->
-                        /* 취소일 때 아무 액션이 없으므로 빈칸 */
-                    }
+                .setNegativeButton("닫기") { dialogInterface, i ->
+                    /* 취소일 때 아무 액션이 없으므로 빈칸 */
+                }
 
-                    .show()
+                .show()
         }
 
 
