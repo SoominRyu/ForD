@@ -65,9 +65,6 @@ class DangerRoad : AppCompatActivity() {
             spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
 
-                    Toast.makeText(this@DangerRoad,
-                            getString(R.string.selected_item) + " " +
-                                    "" + danger[position], Toast.LENGTH_SHORT).show()
                     pos = danger[position].toString()
                 }
 
@@ -78,6 +75,7 @@ class DangerRoad : AppCompatActivity() {
         }
 
 
+        //전송 버튼 눌렀을
         Btn.setOnClickListener {
 
             //edittext 값이 다 들어갔는지 확인
@@ -89,9 +87,22 @@ class DangerRoad : AppCompatActivity() {
 
             initcount()
 
+            if(success.visibility ==View.INVISIBLE)
+                success.visibility = View.VISIBLE
+            else
+                success.visibility = View.INVISIBLE
 
+        }
 
+        //신고 접수 확인 누르면 일단 메인으로 이동
+        enterBtn.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
+        cancel.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
         val back: ImageView
@@ -100,6 +111,8 @@ class DangerRoad : AppCompatActivity() {
             val intent = Intent(this@DangerRoad, MainActivity::class.java)
             startActivity(intent) //액티비티 이동
         }
+
+
 
 
     }
@@ -127,8 +140,7 @@ class DangerRoad : AppCompatActivity() {
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRDate").setValue(dr_date)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRLocate").setValue(kakaourl)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRUser").setValue(user_id)
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+
 
     }
 

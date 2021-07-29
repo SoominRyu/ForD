@@ -18,6 +18,7 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".AroundActivity"></activity>
 
+
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="c896467ea843417bffdb1c3aca3ac4df" />
@@ -32,9 +33,10 @@
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MypageActivity" />
-        <activity android:name=".DangerRoad" />
-        <activity android:name=".DRwarningActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".DRwarningActivity"/>
+        <activity android:name=".AroundActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".DangerRoad">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
