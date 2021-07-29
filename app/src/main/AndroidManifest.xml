@@ -19,6 +19,7 @@
 
 
 
+
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="eb166cb66cde918ee3734268f817fb1e" />
@@ -28,6 +29,7 @@
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".LoginActivity" />
+
 
         <activity
             android:name=".MypagePopupActivity"
