@@ -100,7 +100,7 @@ class DangerRoad : AppCompatActivity() {
 
         }
 
-        //신고 접수 확인 누르면 일단 메인으로 이
+        //신고 접수 확인 누르면 일단 메인으로 이동
         enterBtn.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
