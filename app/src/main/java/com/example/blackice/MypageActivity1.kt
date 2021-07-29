@@ -9,13 +9,12 @@ import kotlinx.android.synthetic.main.mypage_dialog.view.*
 var name=""
 class MypageActivity1 : AppCompatActivity() {
 
-
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mypage)
+
+
+
 
        // changeUserName
         val builder = AlertDialog.Builder(this)
