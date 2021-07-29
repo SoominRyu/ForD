@@ -1,5 +1,7 @@
 package com.example.blackice
 
+
+import android.content.Intent
 import android.annotation.SuppressLint
 import android.net.http.SslError
 import android.os.Bundle
@@ -13,7 +15,9 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.AdapterView
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.ListView
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -164,6 +168,13 @@ class DRwarningActivity : AppCompatActivity() {
 
             //dialogView.webView.settings.domStorageEnabled = true
             //dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
+
+        val back: TextView
+        back = findViewById(R.id.text1)
+        back.setOnClickListener {
+            val intent = Intent(this@DRwarningActivity, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
+        }
 
 
 

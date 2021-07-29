@@ -16,21 +16,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
-
-
+        <activity android:name=".AroundActivity"></activity>
 
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
+            android:value="c896467ea843417bffdb1c3aca3ac4df" />
+
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".LoginActivity" />
-
-
         <activity
             android:name=".MypagePopupActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
