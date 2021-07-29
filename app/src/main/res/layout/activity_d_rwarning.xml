@@ -77,9 +77,8 @@
         <ListView
             android:id="@+id/IdListview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="80dp"
-            />
+            android:layout_height="566dp"
+            android:layout_marginBottom="80dp" />
     </LinearLayout>
 
 

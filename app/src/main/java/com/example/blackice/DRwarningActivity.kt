@@ -73,7 +73,7 @@ class DRwarningActivity : AppCompatActivity() {
     var cnt=0
     var firebaseRef = Firebase.database.getReference("List")
 
-    //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
+ //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
 
     @SuppressLint("SetTextI18n", "SetJavaScriptEnabled")
@@ -82,11 +82,11 @@ class DRwarningActivity : AppCompatActivity() {
         setContentView(R.layout.activity_d_rwarning)
 
         val listview = findViewById<ListView>(R.id.IdListview)
-        // val items = mutableListOf<ListViewItem>()
-        //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
+       // val items = mutableListOf<ListViewItem>()
+      //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
 
 
-        val adapter = ListViewAdapter(LIST_MENU)
+       val adapter = ListViewAdapter(LIST_MENU)
         listview.adapter = adapter
 
 
@@ -94,7 +94,7 @@ class DRwarningActivity : AppCompatActivity() {
 
 
         initcount(listview,
-            adapter)
+                adapter)
 
         val builder = AlertDialog.Builder(this)
         listview.onItemClickListener = AdapterView.OnItemClickListener { parent, v, position, id -> // get TextView's Text.
@@ -105,7 +105,7 @@ class DRwarningActivity : AppCompatActivity() {
             dialogView.dialogdate.setText("신고 시간: " + LIST_MENU[position].date.toString())
             dialogView.dialogLog.setText("신고 내용)\n" + LIST_MENU[position].subTitle.toString())
             dialogView.dialogID.setText(LIST_MENU[position].user.toString())
-            // dialogView.webView("https://www.naver.com/")
+           // dialogView.webView("https://www.naver.com/")
 
 
 
@@ -116,10 +116,10 @@ class DRwarningActivity : AppCompatActivity() {
 
             //dialogView.webView.getSettings().setJavaScriptEnabled(true) //자바스크립트 허용
 
-            // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
-            // dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
-            // dialogView.webView.settings.setSupportMultipleWindows(false)
-            dialogView.webView.settings.javaScriptEnabled = true
+           // dialogView.webView.loadUrl("https://www.naver.com/") //웹뷰 실행
+           // dialogView.webView.setWebChromeClient(WebChromeClient()) //웹뷰에 크롬 사용 허용//이 부분이 없으면 크롬에서 alert가 뜨지 않음
+           // dialogView.webView.settings.setSupportMultipleWindows(false)
+           dialogView.webView.settings.javaScriptEnabled = true
             dialogView.webView.loadUrl(url) //웹뷰 실행
             dialogView.webView.webViewClient= WebViewClient()
             dialogView.webView.webViewClient = object : WebViewClient() {
@@ -147,16 +147,16 @@ class DRwarningActivity : AppCompatActivity() {
                     }
                 }
                 override fun onReceivedSslError(
-                    view: WebView?,
-                    handler: SslErrorHandler,
-                    error: SslError?
+                        view: WebView?,
+                        handler: SslErrorHandler,
+                        error: SslError?
                 ) {
                     handler.proceed() // Ignore SSL certificate errors
                 }
 
                 override fun shouldOverrideUrlLoading(
-                    view: WebView?,
-                    request: WebResourceRequest?
+                        view: WebView?,
+                        request: WebResourceRequest?
                 ): Boolean {
                     view?.loadUrl(request?.getUrl().toString());
                     return true;
