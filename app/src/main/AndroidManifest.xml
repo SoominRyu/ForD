@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.blackice">
-    <uses-permission android:name="android.permission.INTERNET">
-    </uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
-    </uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:usesCleartextTraffic="true"
-        >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
 
-        <meta-data android:name="com.kakao.sdk.AppKey" android:value="1f7fe1bc77c5c53917d1c38b7501e6a9"/>
-        <activity android:name=".SignIn3Activity"></activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="20df30173bc48d000fd81a9132e12367" />
+
+        <activity android:name=".DRListActivity" />
+        <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".DangerRoad" />
+        <activity
+            android:name=".MypagePopupActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".DRwarningActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
