@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="250dp"
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:background="#7d7d7d"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/drawerView"
+
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,19 +19,14 @@
         android:background="@color/white"
         >
 
-        <ImageView
-            android:id="@+id/back"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/back"
-            />
+
 
         <RelativeLayout
             android:id="@+id/user"
             android:layout_width="250dp"
             android:layout_height="30dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             >
 
             <TextView
@@ -107,10 +106,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/scdream6"
+                android:fontFamily="@font/scdream5"
                 android:text="마이페이지"
                 android:textColor="#000000"
-                android:textSize="11pt"
+                android:textSize="8pt"
                 style="?android:borderlessButtonStyle"
                  />
             <Button
@@ -118,10 +117,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/scdream6"
+                android:fontFamily="@font/scdream5"
                 android:text="환경설정"
                 android:textColor="#000000"
-                android:textSize="11pt"
+                android:textSize="8pt"
                 style="?android:borderlessButtonStyle"
                 />
             <Button
@@ -129,10 +128,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:fontFamily="@font/scdream6"
+                android:fontFamily="@font/scdream5"
                 android:text="로그아웃"
                 android:textColor="#000000"
-                android:textSize="11pt"
+                android:textSize="8pt"
                 style="?android:borderlessButtonStyle"
                 />
 

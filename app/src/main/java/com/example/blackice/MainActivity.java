@@ -1,48 +1,37 @@
 package com.example.blackice;
 
 import android.Manifest;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-
 import android.content.DialogInterface;
-
 import android.content.Intent;
-
 import android.content.pm.PackageManager;
-
 import android.location.LocationManager;
-
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-
-import androidx.core.app.ActivityCompat;
-
-import androidx.core.content.ContextCompat;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.util.Log;
-
 import android.view.View;
-import android.widget.EditText;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import net.daum.mf.map.api.MapPoint;
 import net.daum.mf.map.api.MapReverseGeoCoder;
 import net.daum.mf.map.api.MapView;
-
-import static java.sql.DriverManager.println;
 
 public class MainActivity extends AppCompatActivity implements MapView.CurrentLocationEventListener, MapReverseGeoCoder.ReverseGeoCodingResultListener {
 
     private static final String LOG_TAG = "MainActivity";
 
     private MapView mMapView;
+    private DrawerLayout drawerLayout;
+    private View drawerView;
+
 
 
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
@@ -71,7 +60,113 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             checkRunTimePermission();
         }
 
+        ImageView warning;
+        warning = findViewById(R.id.warning);
+        warning.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, DRwarningActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+        ImageView location;
+        location = findViewById(R.id.location);
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, AroundActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerView = (View) findViewById(R.id.drawerView);
+        drawerLayout.setDrawerListener(listener);
+
+
+        ImageView menu;
+        menu = findViewById(R.id.menu);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(drawerView);
+            }
+        });
+
+
+        Button DRbutton;
+        DRbutton = findViewById(R.id.reportBtn);
+        DRbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, DangerRoad.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+        Button DRListbutton;
+        DRListbutton = findViewById(R.id.checkReportBtn);
+        DRListbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, DRListActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+        Button mypageBtn;
+        mypageBtn = findViewById(R.id.mypageBtn);
+        mypageBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, MypageActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+        Button settingBtn;
+        settingBtn = findViewById(R.id.settingBtn);
+        settingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, SettingActivity1.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
+
+
     }
+
+    DrawerLayout.DrawerListener listener = new DrawerLayout.DrawerListener() {
+        @Override
+        public void onDrawerSlide(@NonNull View drawerView, float slideOffset) {
+        }
+
+        @Override
+        public void onDrawerOpened(@NonNull View drawerView) {
+        }
+
+        @Override
+        public void onDrawerClosed(@NonNull View drawerView) {
+        }
+
+        @Override
+        public void onDrawerStateChanged(int newState) {
+        }
+    };
 
 
 
@@ -151,7 +246,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             if (check_result) {
                 Log.d("@@@", "start");
                 //위치 값을 가져올 수 있음
-                mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+                mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
             } else {
                 // 거부한 퍼미션이 있다면 앱을 사용할 수 없는 이유를 설명해주고 앱을 종료합니다.2 가지 경우가 있습니다.
 
@@ -186,7 +281,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
 
 
             // 3.  위치 값을 가져올 수 있음
-            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading);
+            mMapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithoutHeading);
 
 
         } else {  //2. 퍼미션 요청을 허용한 적이 없다면 퍼미션 요청이 필요합니다. 2가지 경우(3-1, 4-1)가 있습니다.

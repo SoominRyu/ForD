@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -26,6 +27,18 @@ public class MypageActivity extends AppCompatActivity implements View.OnClickLis
         //팝업버튼 설정
         changeNickname = (Button) findViewById(R.id.changeUserName); //R.id.alert는 팝업버튼 아이디
         changeNickname.setOnClickListener(this);
+
+        ImageView back;
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MypageActivity.this, MainActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
 
     }
 

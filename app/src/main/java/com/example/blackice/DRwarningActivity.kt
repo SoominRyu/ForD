@@ -1,12 +1,15 @@
 package com.example.blackice
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.ListView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -71,6 +74,13 @@ class DRwarningActivity : AppCompatActivity() {
 
         initcount(listview,
                 adapter)
+
+        val back: TextView
+        back = findViewById(R.id.text1)
+        back.setOnClickListener {
+            val intent = Intent(this@DRwarningActivity, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
+        }
 
 
 

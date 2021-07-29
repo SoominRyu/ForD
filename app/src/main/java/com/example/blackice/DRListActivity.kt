@@ -1,8 +1,10 @@
 package com.example.blackice
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
+import android.widget.ImageView
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -33,6 +35,13 @@ class DRListActivity : AppCompatActivity() {
         listview.adapter = adapter
 
         initcount(listview, adapter)
+
+        val back: ImageView
+        back = findViewById(R.id.back)
+        back.setOnClickListener {
+            val intent = Intent(this@DRListActivity, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
+        }
 
 
     }

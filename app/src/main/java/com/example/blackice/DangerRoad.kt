@@ -2,19 +2,16 @@ package com.example.blackice
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import kotlinx.android.synthetic.main.activity_danger_road.*
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-
+import kotlinx.android.synthetic.main.activity_danger_road.*
 
 
 class DangerRoad : AppCompatActivity() {
@@ -28,7 +25,7 @@ class DangerRoad : AppCompatActivity() {
     var drtype = ""
     var drcontent = ""
     var user_id = "test"
-    var dr_date = "2021-07-23 11:00 test"
+    var dr_date = "2021-07-23 11:00"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -82,6 +79,7 @@ class DangerRoad : AppCompatActivity() {
 
 
         Btn.setOnClickListener {
+
             //edittext 값이 다 들어갔는지 확인
             kakaourl = kakaourlEdit.text.toString()
             drcontent = drcontentEdit.text.toString()
@@ -93,6 +91,14 @@ class DangerRoad : AppCompatActivity() {
 
 
 
+
+        }
+
+        val back: ImageView
+        back = findViewById(R.id.back)
+        back.setOnClickListener {
+            val intent = Intent(this@DangerRoad, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
         }
 
 
