@@ -203,6 +203,10 @@ class DRwarningActivity : AppCompatActivity() {
                 override fun onDataChange(snapshot: DataSnapshot) {
 
 
+
+
+
+
                     var key_date = snapshot.value.toString()
                     Log.w("KEY-date", key_date)
                     data_classify(listview, adapter, i, key_date)
