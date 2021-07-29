@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:background="#ffffff">
+
+
+
+    <LinearLayout
+        android:id="@+id/listviewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:text="Show Toast"
+
+        >
+        <RelativeLayout
+            android:id="@+id/listviewlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:text="Show Toast"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/background" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center_horizontal"
+                android:text="위험도로알림"
+                android:textColor="#FFFFFF"
+                android:textSize="13pt"
+                android:textStyle="normal"
+                android:fontFamily="@font/scdream3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"
+                android:drawableRight="@drawable/ic_baseline_clear_24"/>
+
+            <EditText
+                android:id="@+id/userIdEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/login_box"
+                android:hint="Search"
+                android:textColorHint="#D2D2D2"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:drawableRight="@drawable/ic_baseline_calendar_today_24"
+                android:padding="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintTop_toBottomOf="@id/text1"
+                android:gravity="center_horizontal"/>
+
+         </RelativeLayout>
+
+        <ListView
+            android:id="@+id/IdListview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

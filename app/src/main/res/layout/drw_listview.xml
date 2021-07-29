@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button_background4"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="10dp"
+    tools:ignore="ExtraText">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   위험 도로 알림"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/scdream3"
+            android:textSize="13dp"
+            android:textColor="#757575"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_report_problem_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="2021-07-21"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/scdream3"
+            android:textSize="13dp"
+            android:textColor="#757575"
+            android:layout_weight="1"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream5"
+        android:text="결빙 구역 안내"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:id="@+id/text2"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블라블라"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/text3"
+        android:fontFamily="@font/scdream3"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블라블라"
+
+        android:id="@+id/text5"
+        android:textSize="0dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블라블라"
+
+
+        android:id="@+id/text6"
+        android:textSize="0dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+
+</LinearLayout>

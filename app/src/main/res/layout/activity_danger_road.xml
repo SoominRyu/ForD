@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangerRoad"
+    android:background="#ffffff"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/DRlayout">
+
+        <!--        상단바-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/top"
+            android:background="@color/white"
+            android:paddingTop="40dp"
+            android:gravity="left|center_vertical"
+            tools:ignore="MissingConstraints"
+            android:elevation="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/back"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="위험 도로 신고"
+                android:textColor="#25235A"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream7"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+
+        <!--  컨텐츠 부분  -->
+        <LinearLayout
+            android:id="@+id/middle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:padding="20dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <TextView
+                android:id="@+id/sub_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/scdream7"
+                android:gravity="center_horizontal"
+                android:text="위험 도로 위치 신고"
+                android:textColor="#7D7D7D"
+                android:textSize="8pt"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/kakaoMap"
+                android:padding="18dp"
+                android:layout_width="370dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/background"
+                android:fontFamily="@font/scdream7"
+                android:text="지도로 이동하여 주소 찾기 >"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                app:layout_constraintTop_toBottomOf="@id/sub_title"
+                />
+
+            <EditText
+                android:id="@+id/locationURL"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box_shadow"
+                android:fontFamily="@font/scdream4"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:textSize="7pt"
+                android:hint="  여기에 복사한 주소 URL을 붙여 넣어주세요."
+                />
+
+            <TextView
+                android:id="@+id/howto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/scdream3"
+                android:text="(지도 - 해당 위치 길게 클릭 - 공유하기 - URL복사 - 위 칸에 붙여넣기)"
+                android:textColor="#7D7D7D"
+                android:textSize="5.4pt"
+                tools:ignore="MissingConstraints"
+                />
+
+
+            <!--  신고 내용 선택 -->
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/box_shadow"
+                android:orientation="horizontal"
+                android:paddingVertical="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/howto">
+
+                <Spinner
+                    android:id="@+id/spinner_DR"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:dropDownWidth="300dp"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/DRcontent"
+                android:layout_width="370dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:gravity="top"
+                android:background="@drawable/box_shadow"
+                android:textColorHint="#888888"
+                android:textColor="#000000"
+                android:fontFamily="@font/scdream3"
+                android:hint="  신고 상세 내역을 입력해주세요."
+                />
+
+            <Button
+                android:id="@+id/Btn"
+                android:padding="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/scdream6"
+                android:text="전송"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                />
+
+
+            <TextView
+
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gmarketsans_medium"
+                android:text="다음에 신고하기"
+                android:textColor="#5E5E5E"
+                android:textSize="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentStart="true"/>
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/success"
+            android:background="#D9000000"
+            android:visibility="invisible"
+            >
+
+            <TextView
+                android:id="@+id/endmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="신고가 접수되었습니다.\n감사합니다."
+                android:layout_marginTop="350dp"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream7"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/enterBtn"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:layout_marginBottom="290dp"
+                android:layout_marginLeft="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background4"
+                android:fontFamily="@font/scdream6"
+                android:text="전송"
+                android:textColor="#000000"
+                android:textSize="25dp"
+
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
