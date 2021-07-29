@@ -27,6 +27,8 @@ import kotlinx.android.synthetic.main.custom_dialog.view.*
 import kotlinx.android.synthetic.main.drw_listview.view.*
 
 
+
+
 data class ListViewItem(val title: String, val subTitle: String, val date: String, val locate: String, val user: String)
 
 class ListViewAdapter(private val items: MutableList<ListViewItem>): BaseAdapter() {
