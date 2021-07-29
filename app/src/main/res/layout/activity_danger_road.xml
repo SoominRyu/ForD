@@ -9,6 +9,7 @@
     android:background="#ffffff"
     >
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,7 +115,7 @@
                 android:fontFamily="@font/scdream3"
                 android:text="(지도 - 해당 위치 길게 클릭 - 공유하기 - URL복사 - 위 칸에 붙여넣기)"
                 android:textColor="#7D7D7D"
-                android:textSize="5.6pt"
+                android:textSize="5.4pt"
                 tools:ignore="MissingConstraints"
                 />
 
@@ -175,7 +176,7 @@
 
             <TextView
 
-                android:id="@+id/cancle"
+                android:id="@+id/cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gmarketsans_medium"
@@ -192,8 +193,50 @@
 
         </LinearLayout>
 
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/success"
+            android:background="#D9000000"
+            android:visibility="invisible"
+            >
+
+            <TextView
+                android:id="@+id/endmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="신고가 접수되었습니다.\n감사합니다."
+                android:layout_marginTop="350dp"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream7"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/enterBtn"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="450dp"
+                android:layout_marginBottom="290dp"
+                android:layout_marginLeft="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background4"
+                android:fontFamily="@font/scdream6"
+                android:text="전송"
+                android:textColor="#000000"
+                android:textSize="25dp"
+
+                />
+
+        </RelativeLayout>
+
 
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </ScrollView>
