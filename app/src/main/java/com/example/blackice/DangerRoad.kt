@@ -17,7 +17,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.activity_danger_road.*
+
 
 
 class DangerRoad : AppCompatActivity() {
@@ -65,15 +65,12 @@ class DangerRoad : AppCompatActivity() {
         // 스피너 연동
         if (spinner != null) {
             val adapter = ArrayAdapter(this,
-                    android.R.layout.simple_spinner_item, danger)
+                android.R.layout.simple_spinner_item, danger)
             spinner.adapter = adapter
 
             spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
 
-                    Toast.makeText(this@DangerRoad,
-                            getString(R.string.selected_item) + " " +
-                                    "" + danger[position], Toast.LENGTH_SHORT).show()
                     pos = danger[position].toString()
                 }
 
@@ -84,8 +81,9 @@ class DangerRoad : AppCompatActivity() {
         }
 
 
+        //전송 버튼 눌렀을
         Btn.setOnClickListener {
-            
+
             //edittext 값이 다 들어갔는지 확인
             kakaourl = kakaourlEdit.text.toString()
             drcontent = drcontentEdit.text.toString()
@@ -95,10 +93,25 @@ class DangerRoad : AppCompatActivity() {
 
             initcount()
 
-
-
+            if(success.visibility ==View.INVISIBLE)
+                success.visibility = View.VISIBLE
+            else
+                success.visibility = View.INVISIBLE
 
         }
+
+        //신고 접수 확인 누르면 일단 메인으로 이동
+        enterBtn.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        cancel.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
 
     }
@@ -126,8 +139,7 @@ class DangerRoad : AppCompatActivity() {
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRDate").setValue(dr_date)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRLocate").setValue(kakaourl)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRUser").setValue(user_id)
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+
 
     }
 
