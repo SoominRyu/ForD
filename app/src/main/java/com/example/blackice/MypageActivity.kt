@@ -18,6 +18,7 @@ class MypageActivity : AppCompatActivity() {
             val dialogView = layoutInflater.inflate(R.layout.mypage_dialog, null)
 
             //
+            //
 
             builder.setView(dialogView)
                     .setPositiveButton("저장"){dialogInterface, i ->
