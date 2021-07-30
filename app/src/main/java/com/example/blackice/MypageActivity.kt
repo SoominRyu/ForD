@@ -12,15 +12,12 @@ class MypageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mypage)
-
-
-
-
        // changeUserName
         val builder = AlertDialog.Builder(this)
         changeUserName.setOnClickListener {
             val dialogView = layoutInflater.inflate(R.layout.mypage_dialog, null)
 
+            //
 
             builder.setView(dialogView)
                     .setPositiveButton("저장"){dialogInterface, i ->
