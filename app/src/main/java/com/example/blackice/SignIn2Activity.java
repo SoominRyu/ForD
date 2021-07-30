@@ -65,6 +65,7 @@ public class SignIn2Activity extends AppCompatActivity {
                             {
                                 String pwd=UserPWD1.getText().toString();
                                 myRef.child("App").child("Users").child(val).child("Userpwd").setValue(pwd);
+                                myRef.child("App").child("Users").child(val).child("name").setValue(val);
                                 startActivity(intent);
                             }
                             else

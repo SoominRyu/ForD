@@ -20,7 +20,7 @@ public class SignIn3Activity extends AppCompatActivity {
         goLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SignIn3Activity.this, LoginActivity.class);
+                Intent intent = new Intent(SignIn3Activity.this, LoginActivity1.class);
                 startActivity(intent);
             }
         });

@@ -1,105 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
 
     <net.daum.mf.map.api.MapView
         android:id="@+id/map_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:paddingBottom="15dp"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/menuLayout"
-        android:elevation="10dp"
-        android:background="@drawable/map_bot">
-
+        android:layout_height="match_parent">
         <ImageView
-            android:id="@+id/location"
+            android:id="@+id/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:src="@drawable/ic_baseline_location_on_24"
-            android:layout_marginStart="35dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toLeftOf="@+id/warning"
-            tools:ignore="MissingConstraints" />
-
-        <TextView
-            android:id="@+id/text_location"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/scdream3"
-            android:text="주변"
-            android:textColor="#565454"
-            android:textSize="15dp"
-            android:textStyle="normal"
-            android:layout_marginStart="50dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toLeftOf="@+id/text_warning"
-            app:layout_constraintTop_toBottomOf="@id/location"
-            tools:ignore="MissingConstraints" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_warning_amber_24"
-            android:padding="10dp"
-            android:id="@+id/warning"
-            android:onClick="click_warning"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
             tools:ignore="MissingConstraints"
-            android:layout_marginStart="60dp"
-            app:layout_constraintLeft_toRightOf="@id/location"
-            app:layout_constraintRight_toLeftOf="@+id/directions" />
+            android:background="@drawable/round_menu"
+            android:elevation="10dp"/>
 
-        <TextView
-            android:id="@+id/text_warning"
-            android:layout_width="wrap_content"
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/scdream3"
-            android:text="위험도로알림"
-            android:textColor="#565454"
-            android:textSize="15dp"
-            android:textStyle="normal"
-            android:layout_marginStart="60dp"
-            app:layout_constraintLeft_toRightOf="@id/text_location"
-            app:layout_constraintRight_toLeftOf="@+id/text_directions"
-            app:layout_constraintTop_toBottomOf="@id/warning"
-            tools:ignore="MissingConstraints" />
+            android:layout_margin="16dp"
+            android:paddingBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/menuLayout"
+            android:elevation="10dp"
+            android:background="@drawable/map_bot">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_directions_24"
-            android:padding="10dp"
-            android:layout_marginStart="55dp"
-            android:id="@+id/directions"
-            tools:ignore="MissingConstraints"
-            app:layout_constraintLeft_toRightOf="@id/warning" />
+            <ImageView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_location_on_24"
+                android:layout_marginStart="35dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/warning"
+                tools:ignore="MissingConstraints" />
 
-        <TextView
-            android:id="@+id/text_directions"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/scdream3"
-            android:text="길찾기"
-            android:textColor="#565454"
-            android:textSize="15dp"
-            android:textStyle="normal"
-            android:layout_marginStart="53dp"
-            app:layout_constraintLeft_toRightOf="@id/text_warning"
-            app:layout_constraintTop_toBottomOf="@id/directions"
-            tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/text_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/scdream3"
+                android:text="주변"
+                android:textColor="#565454"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginStart="50dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/text_warning"
+                app:layout_constraintTop_toBottomOf="@id/location"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_warning_amber_24"
+                android:padding="10dp"
+                android:id="@+id/warning"
+                tools:ignore="MissingConstraints"
+                android:layout_marginStart="60dp"
+                app:layout_constraintLeft_toRightOf="@id/location"
+                app:layout_constraintRight_toLeftOf="@+id/directions" />
+
+            <TextView
+                android:id="@+id/text_warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/scdream3"
+                android:text="위험도로알림"
+                android:textColor="#565454"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginStart="60dp"
+                app:layout_constraintLeft_toRightOf="@id/text_location"
+                app:layout_constraintRight_toLeftOf="@+id/text_directions"
+                app:layout_constraintTop_toBottomOf="@id/warning"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_directions_24"
+                android:padding="10dp"
+                android:layout_marginStart="55dp"
+                android:id="@+id/directions"
+                tools:ignore="MissingConstraints"
+                app:layout_constraintLeft_toRightOf="@id/warning" />
+
+            <TextView
+                android:id="@+id/text_directions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/scdream3"
+                android:text="길찾기"
+                android:textColor="#565454"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginStart="53dp"
+                app:layout_constraintLeft_toRightOf="@id/text_warning"
+                app:layout_constraintTop_toBottomOf="@id/directions"
+                tools:ignore="MissingConstraints" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 
-</RelativeLayout>
+
+    <include layout="@layout/activity_main_submenu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

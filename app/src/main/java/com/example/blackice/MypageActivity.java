@@ -34,11 +34,12 @@ public class MypageActivity extends AppCompatActivity implements View.OnClickLis
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(MypageActivity.this, MainActivity.class);
+
                 startActivity(intent); //액티비티 이동
             }
         });
-
 
     }
 
