@@ -28,6 +28,7 @@ public class MypageActivity extends AppCompatActivity implements View.OnClickLis
         changeNickname = (Button) findViewById(R.id.changeUserName); //R.id.alert는 팝업버튼 아이디
         changeNickname.setOnClickListener(this);
 
+        //뒤로 가기 버튼
         ImageView back;
         back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
