@@ -2,6 +2,7 @@ package com.example.blackice
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 var id=""
 var pwd=""
-class LoginActivity1 : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     var firebaseRef = Firebase.database.getReference("App")
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class LoginActivity1 : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         SigninBtn.setOnClickListener(View.OnClickListener { // SignipActivity 연결 - 예현 만드는 중(7/9)
-            val intent = Intent(this@LoginActivity1, SignInActivity::class.java)
+            val intent = Intent(this@LoginActivity, SignInActivity::class.java)
             startActivity(intent)
         })
         LoginBtn.setOnClickListener(View.OnClickListener {
@@ -32,7 +33,7 @@ class LoginActivity1 : AppCompatActivity() {
             firebaseRef.child("Users").addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     val children = snapshot.children.iterator()
-
+                    var check = false
                     var key:String?
                     while (children.hasNext())
                     {
@@ -43,9 +44,9 @@ class LoginActivity1 : AppCompatActivity() {
                                 override fun onDataChange(snapshot: DataSnapshot) {
                                     val pw=snapshot.value.toString()
 
-                                    if(pwd==pw)
+                                    if(pwd==pw )
                                     {
-                                        val intent = Intent(this@LoginActivity1, MainActivity::class.java)
+                                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
                                         startActivity(intent)
                                         return
 
@@ -53,6 +54,7 @@ class LoginActivity1 : AppCompatActivity() {
                                     else
                                     {
                                         toast()
+
                                     }
 
                                 }
@@ -61,10 +63,13 @@ class LoginActivity1 : AppCompatActivity() {
                                     println("Failed to read value.")
                                 }
                             })
+
+                            check=true
                         }
-                        else if(key!=id && !children.hasNext())
+                        else if(key!=id && !children.hasNext() && !check)
                         {
                             toast()
+
                         }
                     }
 

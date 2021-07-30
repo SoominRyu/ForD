@@ -2,9 +2,18 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
+      </config>
     </shared>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -28,6 +37,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="soomin">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
@@ -36,13 +46,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jiwonchoi/.android/avd/Pixel_3a_API_30_x86.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@LMQ725S29ee414]" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -69,6 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1627650908324" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-2034175425">
@@ -169,16 +187,21 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="soomin" />
     <option name="LAST_COMMIT_MESSAGE" value="soomin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625495367674">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="690" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627653641562">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625495367674" />
+    <state x="690" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1627653641562" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1625494828078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,5 +218,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625580413539" />
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1627656661147">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661147" />
+    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1627656661146">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661146" />
+    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1627656661145">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661145" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1627656661146">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661146" />
   </component>
 </project>

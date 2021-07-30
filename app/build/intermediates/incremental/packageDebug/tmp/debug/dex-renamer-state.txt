@@ -1,7 +1,13 @@
-#Tue Jul 06 00:35:47 KST 2021
-base.0=E\:\\hanium\\blackapp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
+#Fri Jul 30 23:40:39 KST 2021
+path.3=classes2.dex
+path.2=7/classes.dex
+path.1=0/classes.dex
 path.0=classes.dex
+base.3=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.2=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.1=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-base.1=E\:\\hanium\\blackapp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
