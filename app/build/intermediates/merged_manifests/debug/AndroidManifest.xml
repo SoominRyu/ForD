@@ -28,21 +28,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.blackice.AroundActivity" />
-
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
+            android:value="20df30173bc48d000fd81a9132e12367" />
 
         <activity android:name="com.example.blackice.DRListActivity" />
         <activity android:name="com.example.blackice.SignIn3Activity" />
         <activity android:name="com.example.blackice.SignIn2Activity" />
         <activity android:name="com.example.blackice.SignInActivity" />
         <activity android:name="com.example.blackice.LoadingActivity" />
-        <activity android:name="com.example.blackice.MypageActivity" />
         <activity android:name="com.example.blackice.DRwarningActivity" />
         <activity android:name="com.example.blackice.DangerRoad" />
         <activity android:name="com.example.blackice.LoginActivity" />

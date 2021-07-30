@@ -19,26 +19,19 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-<<<<<<< HEAD
             android:value="20df30173bc48d000fd81a9132e12367" />
-=======
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
 
->>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
-        <activity android:name=".MypageActivity" />
         <activity android:name=".DRwarningActivity" />
         <activity android:name=".DangerRoad" />
-
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
