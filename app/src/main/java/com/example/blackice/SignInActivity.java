@@ -49,7 +49,7 @@ public class SignInActivity extends AppCompatActivity {
         button_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignInActivity.this, LoginActivity1.class);
+                Intent intent = new Intent(SignInActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });

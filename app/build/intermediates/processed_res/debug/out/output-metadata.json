@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "com.example.blackice",
-  "variantName": "processDebugResources",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",

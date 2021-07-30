@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_mypage.*
 import kotlinx.android.synthetic.main.mypage_dialog.view.*
 
 var name=""
-class MypageActivity1 : AppCompatActivity() {
+class MypageActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
