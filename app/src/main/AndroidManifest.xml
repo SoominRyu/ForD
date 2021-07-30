@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".AroundActivity"></activity>
+
 
 
         <meta-data
@@ -28,12 +28,12 @@
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".LoadingActivity" />
-        <activity android:name=".MypageActivity1" />
+        <activity android:name=".MypageActivity" />
         <activity android:name=".DRwarningActivity" />
         <activity android:name=".DangerRoad" />
         <activity android:name=".AroundActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity1">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
