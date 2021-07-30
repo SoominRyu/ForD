@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
             firebaseRef.child("Users").addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     val children = snapshot.children.iterator()
-
+                    var check = false
                     var key:String?
                     while (children.hasNext())
                     {
@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
                                 override fun onDataChange(snapshot: DataSnapshot) {
                                     val pw=snapshot.value.toString()
 
-                                    if(pwd==pw)
+                                    if(pwd==pw )
                                     {
                                         val intent = Intent(this@LoginActivity, MainActivity::class.java)
                                         startActivity(intent)
@@ -63,11 +63,13 @@ class LoginActivity : AppCompatActivity() {
                                     println("Failed to read value.")
                                 }
                             })
+
+                            check=true
                         }
-                        else if(!(key!=id && !children.hasNext()))
+                        else if(key!=id && !children.hasNext() && !check)
                         {
                             toast()
-                            Log.w("KEY-toast", "문제2")
+
                         }
                     }
 

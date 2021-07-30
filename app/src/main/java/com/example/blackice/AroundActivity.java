@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class AroundActivity extends AppCompatActivity {
 
     private WebView webView;
-    private String url = "https://m.map.kakao.com/";
+    private String url = "https://m.map.kakao.com/actions/trafficRegionView";
 
 
 
