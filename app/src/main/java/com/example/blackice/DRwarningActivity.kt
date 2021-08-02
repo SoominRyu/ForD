@@ -93,6 +93,8 @@ class DRwarningActivity : AppCompatActivity() {
 
 
 
+
+
         initcount(listview,
                 adapter)
 
