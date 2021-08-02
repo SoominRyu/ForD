@@ -1,12 +1,12 @@
-#Fri Jul 30 23:40:39 KST 2021
+#Mon Aug 02 23:17:32 KST 2021
 path.3=classes2.dex
 path.2=7/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.2=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-base.1=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=/Users/jiwonchoi/Desktop/Blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.2=/Users/jiwonchoi/Desktop/Blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.1=/Users/jiwonchoi/Desktop/Blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/jiwonchoi/Desktop/Blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

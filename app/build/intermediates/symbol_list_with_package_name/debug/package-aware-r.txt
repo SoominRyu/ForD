@@ -2099,6 +2099,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id info_title
 id intentLayout
 id invisible
 id inward
@@ -2196,6 +2197,9 @@ id navigation_header_container
 id never
 id new_name
 id next
+id next1
+id next2
+id next3
 id noScroll
 id none
 id normal
@@ -2462,7 +2466,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activiry_setting
 layout activity_around
 layout activity_d_r_list
 layout activity_d_rwarning
@@ -2474,9 +2477,12 @@ layout activity_main
 layout activity_main_submenu
 layout activity_mypage
 layout activity_mypage_popup
+layout activity_setting
 layout activity_sign_in
 layout activity_sign_in2
 layout activity_sign_in3
+layout activity_terms
+layout activity_terms_info
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

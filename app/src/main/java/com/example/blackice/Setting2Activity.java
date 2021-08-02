@@ -34,3 +34,4 @@ public class Setting2Activity extends AppCompatActivity {
         });
     }
 }
+햐
