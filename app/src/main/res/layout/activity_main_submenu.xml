@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#7d7d7d"
+    android:orientation="vertical"
+    android:id="@+id/drawerView"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            />
+
+        <RelativeLayout
+            android:id="@+id/user"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:id="@+id/userId"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="한이음"
+                android:fontFamily="@font/scdream7"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:textSize="12pt"
+                android:layout_alignParentStart="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="오늘도 안전운전하세요!"
+            android:gravity="left"
+            android:fontFamily="@font/scdream5"
+            android:textSize="8pt"
+            android:textColor="#000000"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        >
+
+        <Button
+            android:id="@+id/reportBtn"
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/submenu_button"
+            android:text="신고하기"
+            android:fontFamily="@font/scdream3"
+            android:textSize="10pt"
+            android:textColor="@color/white"
+             />
+
+        <Button
+            android:id="@+id/checkReportBtn"
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/submenu_button"
+            android:text="신고내역 확인하기"
+            android:fontFamily="@font/scdream3"
+            android:textSize="10pt"
+            android:textColor="@color/white" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/mypageBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/scdream5"
+                android:text="마이페이지"
+                android:textColor="#000000"
+                android:textSize="8pt"
+                style="?android:borderlessButtonStyle"
+                 />
+            <Button
+                android:id="@+id/settingBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/scdream5"
+                android:text="환경설정"
+                android:textColor="#000000"
+                android:textSize="8pt"
+                style="?android:borderlessButtonStyle"
+                />
+            <Button
+                android:id="@+id/logoutgBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/scdream5"
+                android:text="로그아웃"
+                android:textColor="#000000"
+                android:textSize="8pt"
+                style="?android:borderlessButtonStyle"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting3Activity"
+    android:background="#E2E2E2"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!--  상단바  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/top"
+            android:background="@color/white"
+            android:paddingTop="40dp"
+            android:gravity="left|center_vertical"
+            tools:ignore="MissingConstraints"
+            >
+            <Button
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="14dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="위치정보 이용약관"
+                android:textColor="#25235A"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream7"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100in"
+            android:layout_marginTop="3dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:id="@+id/middle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <TextView
+                android:id="@+id/info_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/scdream5"
+                android:gravity="center_horizontal"
+                android:text="상세 설명"
+                android:textColor="#3E3E3E"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints" />
+
+            <!-- 상세설명 박스-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box_shadow"
+                android:orientation="vertical"
+                android:padding="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/info_title">
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/scdream5"
+                    android:gravity="center_horizontal"
+                    android:text="예시)
+                    제 1 조 (목적)
+                    이 약관은 스타벅스커피코리아 주식회사 (이하 “회사”)가 제공하는 위치정보사업 또는 위치기반서비스사업과 관련하여 회사와 개인위치정보주체와의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다."
+                    android:textColor="#3E3E3E"
+                    android:textSize="6pt"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/userImage"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

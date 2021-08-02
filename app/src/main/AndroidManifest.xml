@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.blackice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="20df30173bc48d000fd81a9132e12367" />
+
+        <activity android:name=".DRListActivity" />
+        <activity android:name=".SignIn3Activity" />
+        <activity android:name=".SignIn2Activity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".DRwarningActivity" />
+        <activity android:name=".MypageActivity" />
+        <activity android:name=".DangerRoad" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Setting1Activity"/>
+        <activity android:name=".Setting2Activity"/>
+        <activity android:name=".Setting3Activity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

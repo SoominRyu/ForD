@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting2Activity"
+    android:background="#E2E2E2"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!--  상단바  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/top"
+            android:background="@color/white"
+            android:paddingTop="40dp"
+            android:gravity="left|center_vertical"
+            tools:ignore="MissingConstraints"
+            >
+            <Button
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:background="@drawable/back"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="14dp"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="환경설정"
+                android:textColor="#25235A"
+                android:textSize="26dp"
+                android:fontFamily="@font/scdream7"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/middle"
+
+            app:layout_constraintTop_toBottomOf="@id/top"
+            app:layout_constraintVertical_bias="1.0"
+            >
+
+            <!-- 위치정보 이용약관 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/middle_1"
+                android:gravity="left|center_vertical"
+                android:layout_marginTop="3dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gmarketsans_medium"
+                    android:layout_marginLeft="48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="위치정보 이용약관"
+                    android:textColor="#3E3E3E"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/next1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/next"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <!-- 개인정보처리방침 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/middle_2"
+                android:gravity="left|center_vertical"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                >
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gmarketsans_medium"
+                    android:layout_marginLeft="48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="개인정보처리방침"
+                    android:textColor="#3E3E3E"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/next2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/next"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <!-- 법적 공지 / 정보 제공처 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/middle_3"
+                android:gravity="left|center_vertical"
+                android:layout_marginTop="1dp"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gmarketsans_medium"
+                    android:layout_marginLeft="48dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="법적 공지 / 정보 제공처"
+                    android:textColor="#3E3E3E"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/next3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/next"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                android:background="@color/white"
+                android:layout_marginTop="1dp"
+                >
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
