@@ -60,6 +60,10 @@
         "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\font\\scdream5.otf"
     },
     {
+        "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_d_r_custom_list.xml.flat",
+        "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\layout\\activity_d_r_custom_list.xml"
+    },
+    {
         "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\layout\\activity_login.xml"
     },

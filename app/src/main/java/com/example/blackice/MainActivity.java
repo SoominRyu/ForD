@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
     private DrawerLayout drawerLayout;
     private View drawerView;
 
-
+    private String userid="";
 
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
     private static final int PERMISSIONS_REQUEST_CODE = 100;
@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Intent intent = getIntent(); /*데이터 수신*/
+
+        userid = intent.getExtras().getString("userid"); /*String형*/
 
         setContentView(R.layout.activity_main);
         Log.d("@@@", "oncreate-멥뷰 전");
@@ -130,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, MypageActivity.class);
-
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
             }
         });

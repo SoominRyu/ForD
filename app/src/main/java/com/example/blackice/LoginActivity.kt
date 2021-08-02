@@ -47,6 +47,7 @@ class LoginActivity : AppCompatActivity() {
                                     if(pwd==pw )
                                     {
                                         val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                                        intent.putExtra("userid", id)
                                         startActivity(intent)
                                         return
 

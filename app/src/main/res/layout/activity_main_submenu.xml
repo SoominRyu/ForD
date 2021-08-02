@@ -92,7 +92,7 @@
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginTop="20dp"
             android:background="@drawable/submenu_button"
-            android:text="신고내역 확인하기"
+            android:text="MY 신고 내역"
             android:fontFamily="@font/scdream3"
             android:textSize="10pt"
             android:textColor="@color/white" />

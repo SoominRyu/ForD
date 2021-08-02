@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="신고내역 확인하기"
+                android:text="MY 신고 내역"
                 android:textColor="#25235A"
                 android:textSize="26dp"
                 android:fontFamily="@font/scdream5"

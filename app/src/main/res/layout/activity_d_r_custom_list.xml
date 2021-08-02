@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button_background4"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="10dp"
+    tools:ignore="ExtraText">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream5"
+        android:text="도로 결빙) 00 터널에 결빙 발생"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:id="@+id/text2"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치: "
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/text3"
+        android:fontFamily="@font/scdream3"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="신고시간: "
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/text7"
+        android:fontFamily="@font/scdream3"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블라블라"
+
+        android:id="@+id/text5"
+        android:textSize="0dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블라블라"
+
+
+        android:id="@+id/text6"
+        android:textSize="0dp"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+
+</LinearLayout>
