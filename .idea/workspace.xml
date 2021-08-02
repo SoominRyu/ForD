@@ -9,12 +9,16 @@
     </shared>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
+=======
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 =======
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
@@ -48,7 +52,20 @@
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
 =======
     <list default="true" id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="soomin">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +74,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/Kwonsaehoon/.android/avd/Pixel_3a_API_30_x86.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jiwonchoi/.android/avd/Pixel_3a_API_30_x86.avd]" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 =======
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@LMQ725S29ee414]" />
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
@@ -217,7 +238,10 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
     <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="soomin" />
