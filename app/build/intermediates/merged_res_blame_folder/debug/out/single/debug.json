@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_main_submenu.xml.flat",
-        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_main_submenu.xml"
-    },
-    {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream.otf.flat",
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream.otf"
+    },
+    {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_main_submenu.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_main_submenu.xml"
     },
     {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_back.xml.flat",
