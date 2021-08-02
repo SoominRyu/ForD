@@ -31,15 +31,11 @@
         <activity android:name=".MypageActivity" />
         <activity android:name=".DRwarningActivity" />
         <activity android:name=".DangerRoad" />
-<<<<<<< HEAD
+
         <activity android:name=".AroundActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
-=======
 
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
->>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

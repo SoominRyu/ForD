@@ -141,15 +141,6 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             @Override
             public void onClick(View v) {
 
-<<<<<<< HEAD
-              //  Intent intent = new Intent(MainActivity.this, SettingActivity1.class);
-
-               // startActivity(intent); //액티비티 이동
-=======
-                //Intent intent = new Intent(MainActivity.this, SettingActivity.class);
-
-                //startActivity(intent); //액티비티 이동
->>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
             }
         });
 

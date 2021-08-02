@@ -2099,6 +2099,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id info_title
 id intentLayout
 id invisible
 id inward
@@ -2185,10 +2186,6 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id mypageBtn
-<<<<<<< HEAD
-=======
-id mypage_popup
->>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
@@ -2197,11 +2194,10 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id never
-<<<<<<< HEAD
-=======
-id new_name
->>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 id next
+id next1
+id next2
+id next3
 id noScroll
 id none
 id normal
@@ -2241,7 +2237,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2479,13 +2474,12 @@ layout activity_login
 layout activity_main
 layout activity_main_submenu
 layout activity_mypage
-<<<<<<< HEAD
-=======
-layout activity_mypage_popup
->>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
+layout activity_setting
 layout activity_sign_in
 layout activity_sign_in2
 layout activity_sign_in3
+layout activity_terms
+layout activity_terms_info
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
