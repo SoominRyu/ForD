@@ -13,9 +13,6 @@ class MypageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mypage)
 
-
-
-
        // changeUserName
         val builder = AlertDialog.Builder(this)
         changeUserName.setOnClickListener {
@@ -30,7 +27,6 @@ class MypageActivity : AppCompatActivity() {
                     .setNegativeButton("취소") { dialogInterface, i ->
                         /* 취소일 때 아무 액션이 없으므로 빈칸 */
                     }
-
                     .show()
         }
     }

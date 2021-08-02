@@ -16,8 +16,6 @@ public class AroundActivity extends AppCompatActivity {
     private WebView webView;
     private String url = "https://m.map.kakao.com/actions/trafficRegionView";
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +26,7 @@ public class AroundActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         webView.setWebViewClient(new WebViewClientClass());
 
-
-
     }
-
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -46,7 +41,6 @@ public class AroundActivity extends AppCompatActivity {
     private class WebViewClientClass extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-
 
             if (url.startsWith("intent:")) {
                 try {

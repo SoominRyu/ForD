@@ -1,318 +1,326 @@
 [
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_on.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/switch_track_on.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_main_submenu.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_main_submenu.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_tri.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/tri.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream3.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream3.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_back.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/back.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream5.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream5.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_off.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_track_off.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_report_problem_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_report_problem_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_mypage_dialog.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/mypage_dialog.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_round_box.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/round_box.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_setting.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_setting.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_main_submenu.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_main_submenu.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_thumb_selector.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_thumb_selector.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_submenu_button.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/submenu_button.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_mypage_dialog.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/mypage_dialog.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_menu_box.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/menu_box.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_loading.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_loading.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_listview.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/listview.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in3.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_sign_in3.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_menu.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/menu.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream8.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream8.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_d_r_list.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_d_r_list.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_clear_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_next.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/next.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_end_drive.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_end_drive.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_button_background3.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/button_background3.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_button_background2.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/button_background2.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_box_shadow.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/box_shadow.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_directions_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_directions_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_round_box.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/round_box.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in2.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_sign_in2.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_tri.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/tri.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream2.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream2.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_thumb.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_thumb.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_menu_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_menu_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_input_box.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/input_box.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream6.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream6.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_on.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_track_on.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_menu_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_app_font.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/app_font.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_login_box.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/login_box.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_app_font.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/app_font.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/custom_dialog.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_listview.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/listview.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_d_rwarning.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_d_rwarning.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in2.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_sign_in2.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream6.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream6.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_login_box.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/login_box.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_danger_road.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_danger_road.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream2.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream2.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_clear_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_button_background2.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/button_background2.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_input_box.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/input_box.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_calendar_today_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_end_drive.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_end_drive.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_line1.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/line1.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream9.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream9.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_danger_road.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_danger_road.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_back.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/back.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activiry_setting.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activiry_setting.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_search_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_search_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream9.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream9.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_loading.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_loading.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_directions_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_directions_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_submenu_button.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/submenu_button.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_d_r_list.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_d_r_list.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_selector.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/switch_track_selector.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_gmarketsans_bold.ttf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/gmarketsans_bold.ttf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_button_background3.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/button_background3.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_search_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_search_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_map_bot.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/map_bot.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_image.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/image.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream8.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream8.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream7.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream7.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_map_bot.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/map_bot.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_next.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/next.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_around.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_around.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_location_on_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_location_on_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_report_problem_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_report_problem_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream5.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream5.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_button_background.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/button_background.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_round_menu.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/round_menu.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_selector.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_track_selector.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_gmarketsans_bold.ttf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/gmarketsans_bold.ttf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_terms_info.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_terms_info.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/background.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_warning_amber_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_warning_amber_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_button_background.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/button_background.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_menu_box.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/menu_box.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_login.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_menu.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/menu.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_mypage_popup.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_mypage_popup.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_mypage.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_mypage.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_drw_listview.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/drw_listview.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_mypage_popup.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_mypage_popup.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_round_menu.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/round_menu.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_gmarketsans_medium.ttf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/gmarketsans_medium.ttf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream3.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream3.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_warning_amber_24.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/ic_baseline_warning_amber_24.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/ic_baseline_location_on_24.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_mypage.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_mypage.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_drw_listview.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/drw_listview.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_scdream4.otf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/scdream4.otf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream7.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream7.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_button_background4.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/button_background4.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_switch_thumb.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/switch_thumb.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_terms.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_terms.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_image.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/image.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/background.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_submenu_background.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/submenu_background.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_box_shadow.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/box_shadow.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_switch_thumb_selector.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/switch_thumb_selector.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/font_gmarketsans_medium.ttf.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/font/gmarketsans_medium.ttf"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_around.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_around.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_d_rwarning.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_d_rwarning.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_switch_track_off.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/switch_track_off.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_line1.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/line1.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/drawable_button_background4.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/drawable/button_background4.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_sign_in.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_sign_in.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_submenu_background.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/submenu_background.png"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/font_scdream4.otf.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/font/scdream4.otf"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/custom_dialog.xml"
     },
     {
-        "merged": "/Users/ryu/Desktop/blackice/app/build/intermediates/res/merged/debug/layout_activity_sign_in3.xml.flat",
-        "source": "/Users/ryu/Desktop/blackice/app/src/main/res/layout/activity_sign_in3.xml"
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

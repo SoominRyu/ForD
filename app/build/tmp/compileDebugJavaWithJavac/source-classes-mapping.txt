@@ -10,6 +10,16 @@ com/example/blackice/LoadingActivity.java
 com/example/blackice/SignIn3Activity.java
  com.example.blackice.SignIn3Activity
  com.example.blackice.SignIn3Activity$1
+com/example/blackice/Setting1Activity.java
+ com.example.blackice.Setting1Activity
+ com.example.blackice.Setting1Activity$1
+com/example/blackice/Setting3Activity.java
+ com.example.blackice.Setting3Activity
+ com.example.blackice.Setting3Activity$1
+com/example/blackice/Setting2Activity.java
+ com.example.blackice.Setting2Activity
+ com.example.blackice.Setting2Activity$1
+ com.example.blackice.Setting2Activity$2
 com/example/blackice/SignIn2Activity.java
  com.example.blackice.SignIn2Activity
  com.example.blackice.SignIn2Activity$1
