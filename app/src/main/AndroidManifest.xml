@@ -32,11 +32,10 @@
         <activity android:name=".DRwarningActivity" />
         <activity android:name=".DangerRoad" />
         <activity android:name=".Setting1Activity" />
-<!--        <activity android:name=".Setting2Activity" />-->
+        <activity android:name=".Setting2Activity" />
         <activity android:name=".Setting3Activity" />
         <activity android:name=".MainActivity"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".Setting2Activity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

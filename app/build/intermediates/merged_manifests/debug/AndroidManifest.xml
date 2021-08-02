@@ -46,11 +46,10 @@
         <activity android:name="com.example.blackice.DRwarningActivity" />
         <activity android:name="com.example.blackice.DangerRoad" />
         <activity android:name="com.example.blackice.Setting1Activity" />
-        <!-- <activity android:name=".Setting2Activity" /> -->
+        <activity android:name="com.example.blackice.Setting2Activity" />
         <activity android:name="com.example.blackice.Setting3Activity" />
         <activity android:name="com.example.blackice.MainActivity" />
-        <activity android:name="com.example.blackice.LoginActivity" />
-        <activity android:name="com.example.blackice.Setting2Activity" >
+        <activity android:name="com.example.blackice.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
