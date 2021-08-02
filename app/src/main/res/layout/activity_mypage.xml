@@ -37,13 +37,12 @@
                 android:id="@+id/text1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/scdream7"
                 android:gravity="center_horizontal"
                 android:text="마이페이지"
                 android:textColor="#25235A"
                 android:textSize="26dp"
-                android:fontFamily="@font/scdream7"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
         </RelativeLayout>
 
 

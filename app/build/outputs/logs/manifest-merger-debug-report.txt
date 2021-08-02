@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.2] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/9546338c73fe45177e7ed4149188c889/navigation-ui-ktx-2.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.2.2] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/3db2670412ee2c21a2323ebbe594d12e/navigation-ui-2.2.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/52d1f5154fbf156a1bf7a19ea6a243cb/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -86,22 +86,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jiwonchoi/.gradle/
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/4ddc28734d9a01cc17ee0d362ca9e0c8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/ab53777038404197104ca06488d2ec4e/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/c913389c02d6e27fbcfcd551c51a0275/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:4:5-35
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:2:11-69
@@ -136,7 +136,7 @@ ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:9:
 	android:name
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:9:22-82
 application
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:11:5-45:19
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:11:5-46:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/52d1f5154fbf156a1bf7a19ea6a243cb/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/52d1f5154fbf156a1bf7a19ea6a243cb/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jiwonchoi/.gradle/caches/transforms-2/files-2.1/9e6a6f1060ced9a8b619f50e82775bee/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -247,36 +247,36 @@ activity#com.example.blackice.DangerRoad
 ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:33:9-48
 	android:name
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:33:19-45
-activity#com.example.blackice.LoginActivity
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:34:9-51
-	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:34:19-48
 activity#com.example.blackice.Setting1Activity
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:35:9-54
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:34:9-54
 	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:35:19-51
-activity#com.example.blackice.Setting2Activity
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:34:19-51
+activity#com.example.blackice.Setting3Activity
 ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:36:9-54
 	android:name
 		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:36:19-51
-activity#com.example.blackice.Setting3Activity
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:37:9-54
-	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:37:19-51
 activity#com.example.blackice.MainActivity
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:38:9-44:20
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:37:9-49
 	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:38:19-47
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:37:19-47
+activity#com.example.blackice.LoginActivity
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:38:9-50
+	android:name
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:38:19-48
+activity#com.example.blackice.Setting2Activity
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:39:19-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:39:13-43:29
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:40:17-69
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:42:17-77
+ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:42:27-74
+		ADDED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml:43:27-74
 uses-sdk
 INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jiwonchoi/Desktop/Blackice/app/src/main/AndroidManifest.xml

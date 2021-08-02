@@ -96,7 +96,7 @@
                     android:gravity="center_horizontal"
                     android:text="예시)
                     제 1 조 (목적)
-                    이 약관은 스타벅스커피코리아 주식회사 (이하 “회사”)가 제공하는 위치정보사업 또는 위치기반서비스사업과 관련하여 회사와 개인위치정보주체와의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다."
+                    이 약관은 ForD 주식회사 (이하 “회사”)가 제공하는 위치정보사업 또는 위치기반서비스사업과 관련하여 회사와 개인위치정보주체와의 권리, 의무 및 책임사항, 기타 필요한 사항을 규정함을 목적으로 합니다."
                     android:textColor="#3E3E3E"
                     android:textSize="6pt"
                     app:layout_constraintStart_toStartOf="parent"

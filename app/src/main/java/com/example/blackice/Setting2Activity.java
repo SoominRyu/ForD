@@ -15,7 +15,7 @@ public class Setting2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_terms);
 
         Button back = (Button) findViewById(R.id.back);
-        Button next = (Button) findViewById(R.id.next);
+        Button next1 = (Button) findViewById(R.id.next1);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +25,7 @@ public class Setting2Activity extends AppCompatActivity {
             }
         });
 
-        next.setOnClickListener(new View.OnClickListener() {
+        next1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent settingTerm = new Intent(getApplicationContext(), Setting3Activity.class);
@@ -34,4 +34,3 @@ public class Setting2Activity extends AppCompatActivity {
         });
     }
 }
-햐
