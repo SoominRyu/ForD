@@ -85,7 +85,7 @@ class DRwarningActivity : AppCompatActivity() {
        // val items = mutableListOf<ListViewItem>()
       //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
 
-
+//
        val adapter = ListViewAdapter(LIST_MENU)
         listview.adapter = adapter
 

@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 #Fri Jul 30 23:43:20 KST 2021
+=======
+#Fri Jul 30 23:40:39 KST 2021
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 path.3=classes2.dex
 path.2=7/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+<<<<<<< HEAD
 base.3=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.2=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.1=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.0=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+=======
+base.3=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.2=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
+base.1=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/ryu/Desktop/blackice/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

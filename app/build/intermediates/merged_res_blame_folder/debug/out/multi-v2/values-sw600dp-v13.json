@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\하은\\.gradle\\caches\\transforms-2\\files-2.1\\52d1f5154fbf156a1bf7a19ea6a243cb\\material-1.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+            "outputFile": "/Users/ryu/Desktop/blackice/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ryu/.gradle/wrapper/dists/gradle-6.7.1-bin/bwlcbys1h7rz3272sye1xwiv6/gradle-6.7.1/caches/transforms-2/files-2.1/52d1f5154fbf156a1bf7a19ea6a243cb/material-1.4.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +30,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\하은\\.gradle\\caches\\transforms-2\\files-2.1\\a62594a38ddc7ea34061c06d93ca6d2d\\appcompat-1.3.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "source": "/Users/ryu/.gradle/wrapper/dists/gradle-6.7.1-bin/bwlcbys1h7rz3272sye1xwiv6/gradle-6.7.1/caches/transforms-2/files-2.1/a62594a38ddc7ea34061c06d93ca6d2d/appcompat-1.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -2184,6 +2184,10 @@ int id mtrl_picker_title_text 0x7f0a0140
 int id mtrl_view_tag_bottom_padding 0x7f0a0141
 int id multiply 0x7f0a0142
 int id mypageBtn 0x7f0a0143
+<<<<<<< HEAD
+=======
+int id mypage_popup 0x7f0a0144
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 int id nav_controller_view_tag 0x7f0a0145
 int id nav_host_fragment_container 0x7f0a0146
 int id navigation_bar_item_icon_view 0x7f0a0147
@@ -2192,6 +2196,10 @@ int id navigation_bar_item_large_label_view 0x7f0a0149
 int id navigation_bar_item_small_label_view 0x7f0a014a
 int id navigation_header_container 0x7f0a014b
 int id never 0x7f0a014c
+<<<<<<< HEAD
+=======
+int id new_name 0x7f0a014d
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 int id next 0x7f0a014e
 int id noScroll 0x7f0a014f
 int id none 0x7f0a0150
@@ -2232,6 +2240,10 @@ int id right_icon 0x7f0a0172
 int id right_side 0x7f0a0173
 int id rounded 0x7f0a0174
 int id row_index_key 0x7f0a0175
+<<<<<<< HEAD
+=======
+int id save_button 0x7f0a0176
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 int id save_non_transition_alpha 0x7f0a0177
 int id save_overlay_view 0x7f0a0178
 int id sawtooth 0x7f0a0179
@@ -2469,6 +2481,10 @@ int layout activity_login 0x7f0d0023
 int layout activity_main 0x7f0d0024
 int layout activity_main_submenu 0x7f0d0025
 int layout activity_mypage 0x7f0d0026
+<<<<<<< HEAD
+=======
+int layout activity_mypage_popup 0x7f0d0027
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 int layout activity_sign_in 0x7f0d0028
 int layout activity_sign_in2 0x7f0d0029
 int layout activity_sign_in3 0x7f0d002a

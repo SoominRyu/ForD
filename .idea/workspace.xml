@@ -2,15 +2,29 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
+      </config>
     </shared>
   </component>
+<<<<<<< HEAD
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="key" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
+=======
+<<<<<<< HEAD
+=======
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -28,6 +42,7 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
+<<<<<<< HEAD
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -38,12 +53,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="7.30" />
+=======
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="soomin">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
+    </list>
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Android\Sdk\Pixel_XL_API_30.avd]" />
+=======
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jiwonchoi/.android/avd/Pixel_3a_API_30_x86.avd]" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@LMQ725S29ee414]" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -88,9 +130,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="memory.settings.postsync.last.time.stamp" value="1627650908324" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
   </component>
   <component name="RecentsManager">
     <key name="android.template.-2034175425">
@@ -172,6 +218,7 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="FILTERS">
                 <map>
@@ -185,11 +232,21 @@
                 </map>
               </option>
             </State>
+=======
+            <State />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
           </value>
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="oldMeFiltersMigrated" value="true" />
+=======
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="soomin" />
@@ -197,8 +254,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="7.30" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="286" y="158" key="#PSD" timestamp="1627652621808">
       <screen x="0" y="0" width="1536" height="824" />
+=======
+    <state x="690" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627653641562">
+      <screen x="0" y="25" width="1920" height="1055" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
     </state>
     <state x="286" y="158" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1627652621808" />
     <state x="552" y="211" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627653617713">
@@ -206,6 +268,7 @@
     </state>
     <state x="552" y="211" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1627653617713" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625495367674" />
+    <state x="690" y="295" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1627653641562" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1625494828078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,6 +285,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625580413539" />
+<<<<<<< HEAD
     <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1627910864207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,5 +302,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627910864207" />
+=======
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1627656661147">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661147" />
+    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1627656661146">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661146" />
+    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1627656661145">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661145" />
+    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1627656661146">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1878" height="287" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1627656661146" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
   </component>
 </project>

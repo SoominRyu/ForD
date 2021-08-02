@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 com/example/blackice/SignIn2Activity.java
  com.example.blackice.SignIn2Activity
  com.example.blackice.SignIn2Activity$1
  com.example.blackice.SignIn2Activity$1$1
+=======
+com/example/blackice/AroundActivity.java
+ com.example.blackice.AroundActivity
+ com.example.blackice.AroundActivity$1
+ com.example.blackice.AroundActivity$WebViewClientClass
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 com/example/blackice/BuildConfig.java
  com.example.blackice.BuildConfig
 com/example/blackice/AroundActivity.java
@@ -14,6 +21,13 @@ com/example/blackice/LoadingActivity.java
 com/example/blackice/SignIn3Activity.java
  com.example.blackice.SignIn3Activity
  com.example.blackice.SignIn3Activity$1
+<<<<<<< HEAD
+=======
+com/example/blackice/SignIn2Activity.java
+ com.example.blackice.SignIn2Activity
+ com.example.blackice.SignIn2Activity$1
+ com.example.blackice.SignIn2Activity$1$1
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 com/example/blackice/SignInActivity.java
  com.example.blackice.SignInActivity
  com.example.blackice.SignInActivity$1
