@@ -24,16 +24,16 @@
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/mypage_dialog.xml"
     },
     {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_setting.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_switch_thumb_selector.xml.flat",
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_thumb_selector.xml"
     },
     {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_submenu_button.png.flat",
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/submenu_button.png"
-    },
-    {
-        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activiry_setting.xml.flat",
-        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activiry_setting.xml"
     },
     {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_menu_box.xml.flat",
@@ -208,6 +208,10 @@
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/switch_track_selector.xml"
     },
     {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_terms_info.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_terms_info.xml"
+    },
+    {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -262,6 +266,10 @@
     {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_button_background4.xml.flat",
         "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/drawable/button_background4.xml"
+    },
+    {
+        "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/layout_activity_terms.xml.flat",
+        "source": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/src/main/res/layout/activity_terms.xml"
     },
     {
         "merged": "/Users/Kwonsaehoon/Desktop/HAN/Blackice/app/build/intermediates/res/merged/debug/drawable_background.xml.flat",

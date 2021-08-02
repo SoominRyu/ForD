@@ -75,7 +75,7 @@ public class SignIn2Activity extends AppCompatActivity {
 
 
                         } else {
-                            Toast.makeText(SignIn2Activity.this, "중복된 ID입니다..", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignIn2Activity.this, "ID, PW를 입력해주세요.", Toast.LENGTH_SHORT).show();
                         }
 
                     }
