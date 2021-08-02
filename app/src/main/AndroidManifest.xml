@@ -25,7 +25,6 @@
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".LoadingActivity" />
         <activity android:name=".DRwarningActivity" />
         <activity android:name=".MypageActivity" />
         <activity android:name=".DangerRoad" />
@@ -33,7 +32,9 @@
         <activity android:name=".Setting1Activity"/>
         <activity android:name=".Setting2Activity"/>
         <activity android:name=".Setting3Activity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".AroundActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".LoadingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
