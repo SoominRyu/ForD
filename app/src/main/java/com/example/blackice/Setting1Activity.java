@@ -19,6 +19,14 @@ public class Setting1Activity extends AppCompatActivity {
 //        Button btn3 = (Button) findViewById(R.id.switch3);
 
 
+        back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent settingTerm = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(settingTerm);
+            }
+        });
+
         next.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
