@@ -2187,6 +2187,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id mypageBtn
+id mypage_popup
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
@@ -2195,6 +2196,7 @@ id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
 id never
+id new_name
 id next
 id next1
 id next2
@@ -2238,6 +2240,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2475,10 +2478,7 @@ layout activity_login
 layout activity_main
 layout activity_main_submenu
 layout activity_mypage
-<<<<<<< HEAD
-=======
 layout activity_mypage_popup
->>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
 layout activity_setting
 layout activity_sign_in
 layout activity_sign_in2

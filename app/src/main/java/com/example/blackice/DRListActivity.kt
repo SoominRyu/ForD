@@ -55,7 +55,7 @@ class DRListActivity : AppCompatActivity() {
 
     val LIST_MENU = mutableListOf<ListViewItem2>()
 
-   var userid =""
+    var userid =""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,7 +65,7 @@ class DRListActivity : AppCompatActivity() {
         val adapter = ListViewAdapter2(LIST_MENU)
         listview.adapter = adapter
         userid = intent.getStringExtra("userid")!!
-
+//
 
         val back: ImageView
         back = findViewById(R.id.back)
@@ -104,36 +104,36 @@ class DRListActivity : AppCompatActivity() {
                     var key_data = snapshot.value.toString()
                     Log.w("KEY-find", userid +"//"+key_data+"//"+i)
 
-                        if (userid == key_data) {
+                    if (userid == key_data) {
 
-                            Log.w("KEY-find", "ok"+"//"+i)
-                           // data_date(listview, adapter, cnt, key_data)
-                            LIST_MENU.clear()
-                            Log.w("KEY-cnt", cnt.toString())
+                        Log.w("KEY-find", "ok"+"//"+i)
+                        // data_date(listview, adapter, cnt, key_data)
+                        LIST_MENU.clear()
+                        Log.w("KEY-cnt", cnt.toString())
 
-                                firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
-                                    override fun onDataChange(snapshot: DataSnapshot) {
+                        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
+                            override fun onDataChange(snapshot: DataSnapshot) {
 
-                                        Log.w("KEY-find-date", userid +"//"+key_data+"//"+i)
-                                        var key_date = snapshot.value.toString()
-                                        Log.w("KEY-date", key_date)
-                                        //if(userid==key_data) {
-                                        data_classify(listview, adapter, i, key_date, key_data)
-                                        // }
-                                    }
-
-                                    override fun onCancelled(error: DatabaseError) {
-                                        println("Failed to read value.")
-                                    }
-                                })
+                                Log.w("KEY-find-date", userid +"//"+key_data+"//"+i)
+                                var key_date = snapshot.value.toString()
+                                Log.w("KEY-date", key_date)
+                                //if(userid==key_data) {
+                                data_classify(listview, adapter, i, key_date, key_data)
+                                // }
                             }
+
+                            override fun onCancelled(error: DatabaseError) {
+                                println("Failed to read value.")
+                            }
+                        })
+                    }
                     else
-                        {
-                            return
-                        }
+                    {
+                        return
+                    }
 
 
-                   // Log.w("KEY-date", key_date)
+                    // Log.w("KEY-date", key_date)
                     //data_classify(listview, adapter, i, key_date)
                 }
 
@@ -148,22 +148,22 @@ class DRListActivity : AppCompatActivity() {
         LIST_MENU.clear()
         Log.w("KEY-cnt", cnt.toString())
 
-//
-                firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
-                    override fun onDataChange(snapshot: DataSnapshot) {
+////
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
 
-                        Log.w("KEY-find-date", userid +"//"+key_data+"//"+i)
-                        var key_date = snapshot.value.toString()
-                        Log.w("KEY-date", key_date)
-                        //if(userid==key_data) {
-                            data_classify(listview, adapter, i, key_date, key_data)
-                       // }
-                    }
+                Log.w("KEY-find-date", userid +"//"+key_data+"//"+i)
+                var key_date = snapshot.value.toString()
+                Log.w("KEY-date", key_date)
+                //if(userid==key_data) {
+                data_classify(listview, adapter, i, key_date, key_data)
+                // }
+            }
 
-                    override fun onCancelled(error: DatabaseError) {
-                        println("Failed to read value.")
-                    }
-                })
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
 
 
     }
@@ -171,65 +171,65 @@ class DRListActivity : AppCompatActivity() {
 
 
 
-            firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRClassify").addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRClassify").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
 
-                    Log.w("KEY-find-cla", userid +"//"+key_data+"//"+i)
-                    var key_classify = snapshot.value.toString()
-                    Log.w("KEY-classify", key_classify)
+                Log.w("KEY-find-cla", userid +"//"+key_data+"//"+i)
+                var key_classify = snapshot.value.toString()
+                Log.w("KEY-classify", key_classify)
 
-                    data_content(listview, adapter, i, key_date, key_classify,key_data)
-                }
+                data_content(listview, adapter, i, key_date, key_classify,key_data)
+            }
 
-                override fun onCancelled(error: DatabaseError) {
-                    println("Failed to read value.")
-                }
-            })
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
 
     }
 
     private fun   data_content(listview: ListView?, adapter: ListViewAdapter2, i: Int, key_date: String, key_classify: String, key_data: String) {
 
 
-            firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRContent").addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
-                    Log.w("KEY-find-cont", userid +"//"+key_data+"//"+i)
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRContent").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                Log.w("KEY-find-cont", userid +"//"+key_data+"//"+i)
 
-                    val key_content = snapshot.value.toString()
-                    Log.w("KEY-content", key_content)
-//
+                val key_content = snapshot.value.toString()
+                Log.w("KEY-content", key_content)
 
 
-                    data_locate(listview, adapter, i, key_date, key_classify, key_content,key_data)
-                }
 
-                override fun onCancelled(error: DatabaseError) {
-                    println("Failed to read value.")
-                }
-            })
+                data_locate(listview, adapter, i, key_date, key_classify, key_content,key_data)
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
 
     }
     private fun data_locate(listview: ListView?, adapter: ListViewAdapter2, i: Int, key_date: String, key_classify: String, key_content: String, key_data: String) {
 
 
-            firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRLocate").addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
+        firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRLocate").addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
 
-                    val key_locate = snapshot.value.toString()
-                    Log.w("KEY-find-loca", userid +"//"+key_data+"//"+i)
-                    // data_user(listview, adapter, i, key_date, key_classify, key_content, key_locate)
+                val key_locate = snapshot.value.toString()
+                Log.w("KEY-find-loca", userid +"//"+key_data+"//"+i)
+                // data_user(listview, adapter, i, key_date, key_classify, key_content, key_locate)
 
-                    val key_test = key_locate.split("http")
-                    LIST_MENU.add(ListViewItem2(key_classify + ") " + key_content, key_test[0], key_date))
+                val key_test = key_locate.split("http")
+                LIST_MENU.add(ListViewItem2(key_classify + ") " + key_content, key_test[0], key_date))
 
-                        adapter.notifyDataSetChanged()
+                adapter.notifyDataSetChanged()
 
-                }
+            }
 
-                override fun onCancelled(error: DatabaseError) {
-                    println("Failed to read value.")
-                }
-            })
+            override fun onCancelled(error: DatabaseError) {
+                println("Failed to read value.")
+            }
+        })
 
     }
 }

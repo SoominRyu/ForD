@@ -143,12 +143,10 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
         settingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
 
-=======
                 Intent intent = new Intent(MainActivity.this, Setting1Activity.class);
                 startActivity(intent); //액티비티 이동
->>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
+
             }
         });
 

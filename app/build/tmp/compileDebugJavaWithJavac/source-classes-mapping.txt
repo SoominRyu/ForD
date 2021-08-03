@@ -1,6 +1,7 @@
-com/example/blackice/Setting3Activity.java
- com.example.blackice.Setting3Activity
- com.example.blackice.Setting3Activity$1
+com/example/blackice/AroundActivity.java
+ com.example.blackice.AroundActivity
+ com.example.blackice.AroundActivity$1
+ com.example.blackice.AroundActivity$WebViewClientClass
 com/example/blackice/BuildConfig.java
  com.example.blackice.BuildConfig
 com/example/blackice/LoadingActivity.java
@@ -22,14 +23,6 @@ com/example/blackice/SignInActivity.java
  com.example.blackice.SignInActivity$1
  com.example.blackice.SignInActivity$2
  com.example.blackice.SignInActivity$3
-com/example/blackice/Setting2Activity.java
- com.example.blackice.Setting2Activity
- com.example.blackice.Setting2Activity$1
- com.example.blackice.Setting2Activity$2
-com/example/blackice/AroundActivity.java
- com.example.blackice.AroundActivity
- com.example.blackice.AroundActivity$1
- com.example.blackice.AroundActivity$WebViewClientClass
 com/example/blackice/MainActivity.java
  com.example.blackice.MainActivity
  com.example.blackice.MainActivity$1
@@ -42,3 +35,10 @@ com/example/blackice/MainActivity.java
  com.example.blackice.MainActivity$7
  com.example.blackice.MainActivity$8
  com.example.blackice.MainActivity$9
+com/example/blackice/Setting2Activity.java
+ com.example.blackice.Setting2Activity
+ com.example.blackice.Setting2Activity$1
+ com.example.blackice.Setting2Activity$2
+com/example/blackice/Setting3Activity.java
+ com.example.blackice.Setting3Activity
+ com.example.blackice.Setting3Activity$1

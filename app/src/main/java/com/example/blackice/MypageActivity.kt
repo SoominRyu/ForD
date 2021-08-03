@@ -23,7 +23,7 @@ class MypageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mypage)
        // changeUserName
 
-<<<<<<< HEAD
+
         userid = intent.getStringExtra("userid")!!
 
 
@@ -41,7 +41,7 @@ class MypageActivity : AppCompatActivity() {
 
 
 
-=======
+
         // 이전 화면(메인화면)으로 돌아가기
         back.setOnClickListener({
             val intent = Intent(this, MainActivity::class.java)
@@ -50,7 +50,7 @@ class MypageActivity : AppCompatActivity() {
 
 
         // changeUserName
->>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
+
         val builder = AlertDialog.Builder(this)
         changeUserName.setOnClickListener {
             val dialogView = layoutInflater.inflate(R.layout.mypage_dialog, null)

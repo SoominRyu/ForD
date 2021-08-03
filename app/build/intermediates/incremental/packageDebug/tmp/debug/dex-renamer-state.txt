@@ -1,12 +1,12 @@
-#Tue Aug 03 22:26:22 KST 2021
+#Tue Aug 03 23:41:20 KST 2021
 path.3=classes2.dex
 path.2=7/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=D\:\\Blackices\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=D\:\\Blackices\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.1=D\:\\Blackices\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=D\:\\Blackices\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.2=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.1=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
