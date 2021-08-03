@@ -89,7 +89,12 @@ class DRwarningActivity : AppCompatActivity() {
        val adapter = ListViewAdapter(LIST_MENU)
         listview.adapter = adapter
 
-
+        val back: TextView
+        back = findViewById(R.id.text1)
+        back.setOnClickListener {
+            val intent = Intent(this@DRwarningActivity, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
+        }
 
 
 
