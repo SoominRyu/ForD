@@ -6,8 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-
-
 public class Setting2Activity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {

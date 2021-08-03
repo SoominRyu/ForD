@@ -31,25 +31,32 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.blackice.AroundActivity" />
-
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
+            android:value="20df30173bc48d000fd81a9132e12367" />
 
         <activity android:name="com.example.blackice.DRListActivity" />
         <activity android:name="com.example.blackice.SignIn3Activity" />
         <activity android:name="com.example.blackice.SignIn2Activity" />
         <activity android:name="com.example.blackice.SignInActivity" />
-        <activity android:name="com.example.blackice.LoadingActivity" />
-        <activity android:name="com.example.blackice.MypageActivity" />
         <activity android:name="com.example.blackice.DRwarningActivity" />
+        <activity android:name="com.example.blackice.MypageActivity" />
         <activity android:name="com.example.blackice.DangerRoad" />
+<<<<<<< HEAD
         <activity android:name="com.example.blackice.Setting1Activity" />
         <activity android:name="com.example.blackice.Setting2Activity" />
         <activity android:name="com.example.blackice.Setting3Activity" />
         <activity android:name="com.example.blackice.MainActivity" />
         <activity android:name="com.example.blackice.LoginActivity" >
+=======
+        <activity android:name="com.example.blackice.LoginActivity" />
+        <activity android:name="com.example.blackice.Setting1Activity" />
+        <activity android:name="com.example.blackice.Setting2Activity" />
+        <activity android:name="com.example.blackice.Setting3Activity" />
+        <activity android:name="com.example.blackice.AroundActivity" />
+        <activity android:name="com.example.blackice.MainActivity" />
+        <activity android:name="com.example.blackice.LoadingActivity" >
+>>>>>>> c45d08fe79993edf142f01ec779579ace01338c6
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -9,6 +9,11 @@
     </shared>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+=======
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 =======
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
@@ -16,6 +21,7 @@
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -30,12 +36,21 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+<<<<<<< HEAD
+        <item name="GROUP_NODE:dev" type="e8cecc67:BranchNodeDescriptor" />
+=======
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+>>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="affd20cd-a5b7-4a62-bed8-ae3001bc6785" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
     <list default="true" id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="soomin">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -45,9 +60,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +74,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/Kwonsaehoon/.android/avd/Pixel_3a_API_30_x86.avd]" />
+=======
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jiwonchoi/.android/avd/Pixel_3a_API_30_x86.avd]" />
+>>>>>>> c370142ab616e3424eb346cd34edf36b7f56335f
 =======
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@LMQ725S29ee414]" />
 >>>>>>> bc7a55b5ee41754a96784a4a5cd1cd0f3c4dd41d
@@ -64,6 +86,34 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Blackice" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Blackice" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Blackice" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,12 +214,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c125055a-cd1c-4eb7-b012-880468e39e3e" name="Default Changelist" comment="" />
+      <changelist id="affd20cd-a5b7-4a62-bed8-ae3001bc6785" name="Default Changelist" comment="" />
       <created>1625492262578</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
