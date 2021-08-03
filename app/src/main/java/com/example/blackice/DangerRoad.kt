@@ -149,7 +149,7 @@ class DangerRoad : AppCompatActivity() {
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRContent").setValue(drcontent)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRDate").setValue(dr_date)
         firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRLocate").setValue(kakaourl)
-        firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRUser").setValue(user_id)
+        firebaseRef.child("DangersReportLIst").child(nextcnt).child("DRUser").setValue(userid)
 
 
     }
