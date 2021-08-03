@@ -61,20 +61,19 @@
             <!-- 위치정보 이용약관 -->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="80dp"
                 android:id="@+id/middle_1"
                 android:gravity="left|center_vertical"
                 android:layout_marginTop="3dp"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingLeft="48dp">
                 <TextView
                     android:id="@+id/text2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/gmarketsans_medium"
-                    android:layout_marginLeft="48dp"
+                    android:fontFamily="@font/scdream4"
                     android:layout_centerVertical="true"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
                     android:text="위치정보 이용약관"
                     android:textColor="#3E3E3E"
                     android:textSize="10pt"
@@ -95,21 +94,20 @@
             <!-- 개인정보처리방침 -->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="80dp"
                 android:id="@+id/middle_2"
                 android:gravity="left|center_vertical"
                 android:layout_marginTop="1dp"
                 android:background="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingLeft="48dp"
                 >
                 <TextView
                     android:id="@+id/text3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/gmarketsans_medium"
-                    android:layout_marginLeft="48dp"
+                    android:fontFamily="@font/scdream4"
                     android:layout_centerVertical="true"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
                     android:text="개인정보처리방침"
                     android:textColor="#3E3E3E"
                     android:textSize="10pt"
@@ -134,16 +132,15 @@
                 android:id="@+id/middle_3"
                 android:gravity="left|center_vertical"
                 android:layout_marginTop="1dp"
-                android:background="@color/white">
+                android:background="@color/white"
+                android:paddingVertical="20dp"
+                android:paddingLeft="48dp">
                 <TextView
                     android:id="@+id/text4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/gmarketsans_medium"
-                    android:layout_marginLeft="48dp"
+                    android:fontFamily="@font/scdream4"
                     android:layout_centerVertical="true"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
                     android:text="법적 공지 / 정보 제공처"
                     android:textColor="#3E3E3E"
                     android:textSize="10pt"

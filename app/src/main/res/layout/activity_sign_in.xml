@@ -49,7 +49,7 @@
             android:id="@+id/checkBox_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/scdream7"
+            android:fontFamily="@font/scdream6"
             android:text="약관 전체 동의"
             android:textSize="10pt"
             android:textColor="#000000"

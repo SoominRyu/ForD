@@ -12,6 +12,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/scdream5"
         android:text="위치"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:fontFamily="@font/scdream5"
         android:text="신고시간"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -32,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:fontFamily="@font/scdream3"
         android:text="신고자"
         android:gravity="right"
         android:textSize="10dp"
@@ -52,6 +55,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/scdream5"
         android:text="신고 내용)"
         android:textSize="18sp"
         android:textStyle="bold" />

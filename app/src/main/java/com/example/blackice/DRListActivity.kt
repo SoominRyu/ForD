@@ -37,7 +37,7 @@ class DRListActivity : AppCompatActivity() {
         initcount(listview, adapter)
 
         val back: ImageView
-        back = findViewById(R.id.back)
+        back = findViewById(R.id.text1)
         back.setOnClickListener {
             val intent = Intent(this@DRListActivity, MainActivity::class.java)
             startActivity(intent) //액티비티 이동

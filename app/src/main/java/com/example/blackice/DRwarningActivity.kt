@@ -13,11 +13,7 @@ import android.webkit.SslErrorHandler
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.widget.AdapterView
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.DataSnapshot
@@ -27,8 +23,10 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_d_r_list.view.text2
 import kotlinx.android.synthetic.main.activity_d_r_list.view.text3
+import kotlinx.android.synthetic.main.activity_mypage.*
 import kotlinx.android.synthetic.main.custom_dialog.view.*
 import kotlinx.android.synthetic.main.drw_listview.view.*
+import kotlinx.android.synthetic.main.mypage_dialog.view.*
 
 
 data class ListViewItem(val title: String, val subTitle: String, val date: String, val locate: String, val user: String)
@@ -75,6 +73,7 @@ class DRwarningActivity : AppCompatActivity() {
 
  //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
+
 
     @SuppressLint("SetTextI18n", "SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -170,24 +169,18 @@ class DRwarningActivity : AppCompatActivity() {
             //dialogView.webView.loadUrl("http://kko.to/" + url) //웹뷰 실행
 
         val back: TextView
-        back = findViewById(R.id.text1)
+        back = findViewById(R.id.back)
         back.setOnClickListener {
             val intent = Intent(this@DRwarningActivity, MainActivity::class.java)
             startActivity(intent) //액티비티 이동
         }
 
-
-
-            builder.setView(dialogView)
-                .setNegativeButton("닫기") { dialogInterface, i ->
-                    /* 취소일 때 아무 액션이 없으므로 빈칸 */
-                }
-
-                .show()
         }
 
 
     }
+
+
 
     private fun initcount(listview: ListView?, adapter: ListViewAdapter) {
 

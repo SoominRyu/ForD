@@ -41,6 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
+                android:layout_marginLeft="60dp"
+                android:paddingRight="60dp"
                 android:text="위험 도로 신고"
                 android:textColor="#25235A"
                 android:textSize="26dp"
