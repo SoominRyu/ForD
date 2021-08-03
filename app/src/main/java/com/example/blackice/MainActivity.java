@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, DRListActivity.class);
-
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
             }
         });
