@@ -16,29 +16,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="eb166cb66cde918ee3734268f817fb1e" />
+            android:value="c896467ea843417bffdb1c3aca3ac4df" />
 
         <activity android:name=".DRListActivity" />
         <activity android:name=".SignIn3Activity" />
         <activity android:name=".SignIn2Activity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".LoadingActivity" />
-        <activity android:name=".MypageActivity" />
         <activity android:name=".DRwarningActivity" />
+        <activity android:name=".MypageActivity" />
         <activity android:name=".DangerRoad" />
+<<<<<<< HEAD
 
         <activity android:name=".AroundActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
 
+=======
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Setting1Activity"/>
+        <activity android:name=".Setting2Activity"/>
+        <activity android:name=".Setting3Activity"/>
+        <activity android:name=".AroundActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".LoadingActivity" >
+>>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

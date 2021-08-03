@@ -1779,6 +1779,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_arrow_back_24
+drawable ic_baseline_arrow_back_24_small
 drawable ic_baseline_calendar_today_24
 drawable ic_baseline_clear_24
 drawable ic_baseline_directions_24
@@ -2463,7 +2464,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activiry_setting
 layout activity_around
 layout activity_d_r_custom_list
 layout activity_d_r_list
@@ -2475,6 +2475,10 @@ layout activity_login
 layout activity_main
 layout activity_main_submenu
 layout activity_mypage
+<<<<<<< HEAD
+=======
+layout activity_mypage_popup
+>>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
 layout activity_setting
 layout activity_sign_in
 layout activity_sign_in2

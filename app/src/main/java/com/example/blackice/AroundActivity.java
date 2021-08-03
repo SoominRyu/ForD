@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,8 +17,6 @@ public class AroundActivity extends AppCompatActivity {
 
     private WebView webView;
     private String url = "https://m.map.kakao.com/actions/trafficRegionView";
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +28,19 @@ public class AroundActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         webView.setWebViewClient(new WebViewClientClass());
 
+        ImageView back;
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Intent intent = new Intent(AroundActivity.this, MainActivity.class);
+
+                startActivity(intent); //액티비티 이동
+            }
+        });
 
     }
-
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -46,7 +55,6 @@ public class AroundActivity extends AppCompatActivity {
     private class WebViewClientClass extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-
 
             if (url.startsWith("intent:")) {
                 try {

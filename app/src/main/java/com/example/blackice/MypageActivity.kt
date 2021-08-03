@@ -1,5 +1,6 @@
 package com.example.blackice
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +23,7 @@ class MypageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_mypage)
        // changeUserName
 
+<<<<<<< HEAD
         userid = intent.getStringExtra("userid")!!
 
 
@@ -39,6 +41,16 @@ class MypageActivity : AppCompatActivity() {
 
 
 
+=======
+        // 이전 화면(메인화면)으로 돌아가기
+        back.setOnClickListener({
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        })
+
+
+        // changeUserName
+>>>>>>> 96ef77af057b3df259a1726d5749e3edf3049359
         val builder = AlertDialog.Builder(this)
         changeUserName.setOnClickListener {
             val dialogView = layoutInflater.inflate(R.layout.mypage_dialog, null)
@@ -61,5 +73,7 @@ class MypageActivity : AppCompatActivity() {
 
                     .show()
         }
+
+
     }
 }

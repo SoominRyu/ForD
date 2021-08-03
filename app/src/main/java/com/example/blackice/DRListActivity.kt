@@ -197,7 +197,7 @@ class DRListActivity : AppCompatActivity() {
 
                     val key_content = snapshot.value.toString()
                     Log.w("KEY-content", key_content)
-
+//
 
 
                     data_locate(listview, adapter, i, key_date, key_classify, key_content,key_data)
