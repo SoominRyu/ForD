@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blackice.iml" filepath="$PROJECT_DIR$/.idea/modules/Blackice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Blackice.iml" filepath="$PROJECT_DIR$/.idea/Blackice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Blackice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Blackice.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Desktop.Blackice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Desktop.Blackice.app.iml" />
     </modules>
   </component>
 </project>

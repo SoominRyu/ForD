@@ -111,6 +111,12 @@ class DangerRoad : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val back: ImageView
+        back = findViewById(R.id.back)
+        back.setOnClickListener {
+            val intent = Intent(this@DangerRoad, MainActivity::class.java)
+            startActivity(intent) //액티비티 이동
+        }
 
 
 
