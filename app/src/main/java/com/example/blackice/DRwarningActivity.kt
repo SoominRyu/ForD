@@ -72,7 +72,7 @@ class DRwarningActivity : AppCompatActivity() {
 
     var cnt=0
     var firebaseRef = Firebase.database.getReference("List")
-
+    var userid=""
  //   val LIST_MENU: MutableList<String> = mutableListOf<String>("")
     val LIST_MENU = mutableListOf<ListViewItem>()
 
@@ -84,7 +84,7 @@ class DRwarningActivity : AppCompatActivity() {
         val listview = findViewById<ListView>(R.id.IdListview)
        // val items = mutableListOf<ListViewItem>()
       //  val adapter = ArrayAdapter(this, R.layout.drw_listview,  LIST_MENU)
-
+        userid = intent.getStringExtra("userid")!!
 //
        val adapter = ListViewAdapter(LIST_MENU)
         listview.adapter = adapter
@@ -175,6 +175,7 @@ class DRwarningActivity : AppCompatActivity() {
         back = findViewById(R.id.text1)
         back.setOnClickListener {
             val intent = Intent(this@DRwarningActivity, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent) //액티비티 이동
         }
 

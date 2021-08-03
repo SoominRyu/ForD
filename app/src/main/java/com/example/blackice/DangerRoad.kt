@@ -22,7 +22,7 @@ import com.google.firebase.ktx.Firebase
 
 class DangerRoad : AppCompatActivity() {
     var cnt = 0
-
+    var userid=""
     //카카오맵 패키지
     val packagename_kakaomap = "net.daum.android.map"
 
@@ -37,17 +37,19 @@ class DangerRoad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_danger_road)
 
-
+        userid = intent.getStringExtra("userid")!!
         //위부앱 (카카오맵)으로 이동 , 미설치자 - 구글 플레이 카카오맵으로
         kakaoMap.setOnClickListener{
             try{
                 val intent = packageManager.getLaunchIntentForPackage(packagename_kakaomap)
                 intent!!.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                intent.putExtra("userid", userid)
                 startActivity(intent)
 
             }catch(e:Exception){
                 val url = "market://details?id=$packagename_kakaomap"
                 val i = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                intent.putExtra("userid", userid)
                 startActivity(i)
             }
 
@@ -103,11 +105,13 @@ class DangerRoad : AppCompatActivity() {
         //신고 접수 확인 누르면 일단 메인으로 이동
         enterBtn.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent)
         }
 
         cancel.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent)
         }
 
@@ -115,6 +119,7 @@ class DangerRoad : AppCompatActivity() {
         back = findViewById(R.id.back)
         back.setOnClickListener {
             val intent = Intent(this@DangerRoad, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent) //액티비티 이동
         }
 

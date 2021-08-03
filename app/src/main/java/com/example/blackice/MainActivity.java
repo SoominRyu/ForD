@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent(); /*데이터 수신*/
-
         userid = intent.getExtras().getString("userid"); /*String형*/
 
         setContentView(R.layout.activity_main);
@@ -71,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, DRwarningActivity.class);
-
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, AroundActivity.class);
-
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -109,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, DangerRoad.class);
-
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
             }
         });
@@ -145,6 +144,7 @@ public class MainActivity extends AppCompatActivity implements MapView.CurrentLo
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, Setting1Activity.class);
+                intent.putExtra("userid",userid);
                 startActivity(intent); //액티비티 이동
 
             }

@@ -65,12 +65,13 @@ class DRListActivity : AppCompatActivity() {
         val adapter = ListViewAdapter2(LIST_MENU)
         listview.adapter = adapter
         userid = intent.getStringExtra("userid")!!
-//
+
 
         val back: ImageView
         back = findViewById(R.id.back)
         back.setOnClickListener {
             val intent = Intent(this@DRListActivity, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent) //액티비티 이동
         }
 
@@ -148,7 +149,8 @@ class DRListActivity : AppCompatActivity() {
         LIST_MENU.clear()
         Log.w("KEY-cnt", cnt.toString())
 
-////
+
+
         firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
 

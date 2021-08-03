@@ -45,6 +45,7 @@ class MypageActivity : AppCompatActivity() {
         // 이전 화면(메인화면)으로 돌아가기
         back.setOnClickListener({
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra("userid", userid)
             startActivity(intent)
         })
 
