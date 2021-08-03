@@ -33,7 +33,7 @@
         android:usesCleartextTraffic="true" >
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="20df30173bc48d000fd81a9132e12367" />
+            android:value="c896467ea843417bffdb1c3aca3ac4df" />
 
         <activity android:name="com.example.blackice.DRListActivity" />
         <activity android:name="com.example.blackice.SignIn3Activity" />
