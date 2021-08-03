@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Blackice.iml" filepath="$PROJECT_DIR$/.idea/modules/Blackice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Blackice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Blackice.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HAN.Blackice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HAN.Blackice.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Blackices.Blackice.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Blackices.Blackice.app.iml" />
     </modules>
   </component>
 </project>
