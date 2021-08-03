@@ -148,7 +148,7 @@ class DRListActivity : AppCompatActivity() {
         LIST_MENU.clear()
         Log.w("KEY-cnt", cnt.toString())
 
-
+//
 
                 firebaseRef.child("DangersReportLIst").child(i.toString()).child("DRDate").addListenerForSingleValueEvent(object : ValueEventListener {
                     override fun onDataChange(snapshot: DataSnapshot) {
