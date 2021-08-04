@@ -23,7 +23,7 @@ public class Setting3Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent settingTerm = new Intent(getApplicationContext(), Setting2Activity.class);
-                intent.putExtra("userid",userid);
+                settingTerm.putExtra("userid",userid);
                 startActivity(settingTerm);
             }
         });

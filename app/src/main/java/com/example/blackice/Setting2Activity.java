@@ -23,7 +23,7 @@ public class Setting2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent settingTerm = new Intent(getApplicationContext(), Setting1Activity.class);
-                intent.putExtra("userid",userid);
+                settingTerm.putExtra("userid",userid);
                 startActivity(settingTerm);
             }
         });
@@ -32,7 +32,7 @@ public class Setting2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent settingTerm = new Intent(getApplicationContext(), Setting3Activity.class);
-                intent.putExtra("userid",userid);
+                settingTerm.putExtra("userid",userid);
                 startActivity(settingTerm);
             }
         });
