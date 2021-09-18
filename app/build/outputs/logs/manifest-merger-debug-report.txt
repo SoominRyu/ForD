@@ -240,39 +240,43 @@ ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\Andro
 	android:name
 		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:31:19-45
 activity#com.example.blackice.LoginActivity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:32:19-48
 activity#com.example.blackice.Setting1Activity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:34:9-53
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:33:9-54
+	android:name
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:33:19-51
+activity#com.example.blackice.Setting2Activity
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:34:9-54
 	android:name
 		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:34:19-51
-activity#com.example.blackice.Setting2Activity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:35:9-53
+activity#com.example.blackice.Setting3Activity
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:35:9-54
 	android:name
 		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:35:19-51
-activity#com.example.blackice.Setting3Activity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:36:9-53
-	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:36:19-51
 activity#com.example.blackice.AroundActivity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:37:9-51
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:36:9-52
 	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:37:19-49
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:36:19-49
 activity#com.example.blackice.MainActivity
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:38:9-49
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:37:9-50
 	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:38:19-47
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:37:19-47
 activity#com.example.blackice.LoadingActivity
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:38:9-52
+	android:name
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:38:19-50
+activity#com.example.blackice.DRnavi
 ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:39:9-45:20
 	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:39:19-50
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:39:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:41:13-44:29
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
 ADDED from C:\Android\hanium\he_07_30\21_hi032-he\21_hi032-he\app\src\main\AndroidManifest.xml:43:17-77
 	android:name

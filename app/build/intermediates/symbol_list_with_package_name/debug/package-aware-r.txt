@@ -1823,6 +1823,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable navi
 drawable navigation_empty_icon
 drawable next
 drawable notification_action_background
@@ -2356,6 +2357,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time01
 id title
 id titleDividerNoCustom
 id title_template
@@ -2391,6 +2393,9 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id warning
+id warning1
+id warning2
+id warning3
 id webView
 id wide
 id withText
@@ -2472,6 +2477,7 @@ layout activity_d_r_custom_list
 layout activity_d_r_list
 layout activity_d_rwarning
 layout activity_danger_road
+layout activity_drnavi
 layout activity_end_drive
 layout activity_loading
 layout activity_login
