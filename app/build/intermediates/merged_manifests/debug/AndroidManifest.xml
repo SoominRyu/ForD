@@ -49,7 +49,8 @@
         <activity android:name="com.example.blackice.AroundActivity" />
         <activity android:name="com.example.blackice.MainActivity" />
         <activity android:name="com.example.blackice.LoadingActivity" />
-        <activity android:name="com.example.blackice.DRnavi" >
+        <activity android:name="com.example.blackice.DRnavi" />
+        <activity android:name="com.example.blackice.WeatherActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

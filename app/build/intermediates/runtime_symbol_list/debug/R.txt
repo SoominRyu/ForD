@@ -2395,6 +2395,7 @@ int id warning 0x7f0a0211
 int id warning1 0x7f0a0219
 int id warning2 0x7f0a021a
 int id warning3 0x7f0a021b
+int id weather 0x7f0a021d
 int id webView 0x7f0a0212
 int id wide 0x7f0a0213
 int id withText 0x7f0a0214
@@ -2476,6 +2477,7 @@ int layout activity_d_r_custom_list 0x7f0d001d
 int layout activity_d_r_list 0x7f0d001e
 int layout activity_d_rwarning 0x7f0d001f
 int layout activity_danger_road 0x7f0d0020
+int layout activity_drexpect 0x7f0d0088
 int layout activity_drnavi 0x7f0d0021
 int layout activity_end_drive 0x7f0d0022
 int layout activity_loading 0x7f0d0023
@@ -2490,6 +2492,7 @@ int layout activity_sign_in2 0x7f0d002b
 int layout activity_sign_in3 0x7f0d002c
 int layout activity_terms 0x7f0d002d
 int layout activity_terms_info 0x7f0d002e
+int layout activity_weather 0x7f0d0089
 int layout browser_actions_context_menu_page 0x7f0d002f
 int layout browser_actions_context_menu_row 0x7f0d0030
 int layout custom_dialog 0x7f0d0031

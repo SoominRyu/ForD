@@ -35,8 +35,9 @@
         <activity android:name=".Setting3Activity" />
         <activity android:name=".AroundActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoadingActivity"/>
-        <activity android:name=".DRnavi">
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".DRnavi" />
+        <activity android:name=".WeatherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

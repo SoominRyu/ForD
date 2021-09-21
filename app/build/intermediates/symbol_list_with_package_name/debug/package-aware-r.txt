@@ -2396,6 +2396,7 @@ id warning
 id warning1
 id warning2
 id warning3
+id weather
 id webView
 id wide
 id withText
@@ -2477,6 +2478,7 @@ layout activity_d_r_custom_list
 layout activity_d_r_list
 layout activity_d_rwarning
 layout activity_danger_road
+layout activity_drexpect
 layout activity_drnavi
 layout activity_end_drive
 layout activity_loading
@@ -2491,6 +2493,7 @@ layout activity_sign_in2
 layout activity_sign_in3
 layout activity_terms
 layout activity_terms_info
+layout activity_weather
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

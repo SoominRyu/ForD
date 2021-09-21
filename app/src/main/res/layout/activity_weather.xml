@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadingActivity"
+    android:background="@drawable/navi"
+
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/time01"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="605dp"
+        android:fontFamily="@font/scdream5"
+        android:gravity="left"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/scdream5"
+        android:gravity="left"
+        android:text="test"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/warning1"
+        android:background="#80FF0000"
+        android:gravity="left|center_vertical"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:gravity="center"
+            android:text="결빙 구역\n100M 전"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/warning2"
+        android:background="#80FF0000"
+        android:gravity="left|center_vertical"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:gravity="center"
+            android:text="결빙 구역\n50M 전"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/warning3"
+        android:background="#80FF0000"
+        android:gravity="left|center_vertical"
+        tools:ignore="MissingConstraints"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/scdream5"
+            android:gravity="center"
+            android:text="결빙 주의 구간"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout >

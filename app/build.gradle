@@ -92,6 +92,10 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.5.20'
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.firebase:firebase-database-ktx:20.0.0'
+
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 }
 repositories {
     mavenCentral()
