@@ -20,14 +20,15 @@ public class AroundActivity extends AppCompatActivity {
     private String url = "https://m.map.kakao.com/actions/trafficRegionView";
     private String userid = "";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_around);
 
-        Intent intent = getIntent(); /*데이터 수신*/
+        //Intent intent = getIntent(); /*데이터 수신*/
 
-        userid = intent.getExtras().getString("userid"); /*String형*/
+        //userid = intent.getExtras().getString("userid"); /*String형*/
         webView = (WebView) findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl(url);

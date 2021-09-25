@@ -1,12 +1,19 @@
 package com.example.blackice
 
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.view.animation.AlphaAnimation
+import android.view.animation.Animation
+import androidx.annotation.RequiresApi
 
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.synthetic.main.activity_drnavi.*
 import kotlinx.android.synthetic.main.activity_weather.*
+import kotlinx.android.synthetic.main.activity_weather.time01
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -14,6 +21,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import kotlin.math.roundToInt
 
 class WeatherActivity : AppCompatActivity() {
@@ -24,9 +33,17 @@ class WeatherActivity : AppCompatActivity() {
         var lon = "126.785823"
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_weather)
+
+
+        val current = LocalDateTime.now()
+        val formatter = DateTimeFormatter.ofPattern("h:mm a")//"""yyyy년 MM월 dd일 HH시 mm분 ss초")
+        val formatted = current.format(formatter)
+
+        time01.setText(formatted)
 
         //Create Retrofit Builder
         val retrofit = Retrofit.Builder()
@@ -60,6 +77,20 @@ class WeatherActivity : AppCompatActivity() {
             }
 
         })
+
+        var anim: Animation? = null
+        var start = false
+
+
+
+        anim = AlphaAnimation(0.0f, 3.0f)
+        anim.setDuration(200)
+        anim.setStartOffset(20)
+        anim.setRepeatMode(Animation.REVERSE)
+        anim.setRepeatCount(15) //10
+
+        warning.visibility = View.VISIBLE
+        warning.startAnimation(anim)
     }
 }
 

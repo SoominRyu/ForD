@@ -15,8 +15,8 @@
         android:id="@+id/time01"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="605dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="670dp"
         android:fontFamily="@font/scdream5"
         android:gravity="left"
         android:text="time"
@@ -26,16 +26,17 @@
 
     <TextView
         android:id="@+id/weather"
-        android:layout_width="154dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/scdream5"
         android:gravity="left"
         android:text="test"
-        android:textColor="#000000"
-        android:textSize="25dp"
+        android:textColor="#9E9E9E"
+        android:textSize="15dp"
         android:textStyle="bold" />
+
 
 
 
@@ -65,43 +66,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/warning2"
-        android:background="#80FF0000"
-        android:gravity="left|center_vertical"
+        android:gravity="center"
         tools:ignore="MissingConstraints"
-        android:visibility="gone"
+
         >
 
         <TextView
-            android:id="@+id/text2"
+            android:id="@+id/warning"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/scdream5"
             android:gravity="center"
-            android:text="결빙 구역\n50M 전"
+            android:text="결빙 예상 지역"
             android:textColor="#FFFFFF"
+            android:background="#805C2DEB"
             android:textSize="40dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:visibility="gone"/>
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/warning3"
-        android:background="#80FF0000"
-        android:gravity="left|center_vertical"
-        tools:ignore="MissingConstraints"
-        android:visibility="gone"
-        >
 
-        <TextView
-            android:id="@+id/text3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/scdream5"
-            android:gravity="center"
-            android:text="결빙 주의 구간"
-            android:textColor="#FFFFFF"
-            android:textSize="40dp"
-            android:textStyle="bold" />
-    </RelativeLayout>
 </RelativeLayout >

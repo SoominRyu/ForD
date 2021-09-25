@@ -13,7 +13,17 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
-    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <queries>
+        <package android:name="com.locnall.KimGiSa" />
+        <package android:name="com.lguplus.navi" />
+        <package android:name="com.kakao.talk" />
+        <package android:name="com.kakao.talk.alpha" />
+        <package android:name="com.kakao.talk.sandbox" />
+        <package android:name="com.kakao.onetalk" />
+        <package android:name="com.android.chrome" />
+        <package android:name="com.chrome.beta" />
+        <package android:name="com.chrome.dev" />
+    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -33,7 +43,10 @@
         android:usesCleartextTraffic="true" >
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="c896467ea843417bffdb1c3aca3ac4df" />
+            android:value="1f7fe1bc77c5c53917d1c38b7501e6a9" />
+        <meta-data
+            android:name="com.kakao.sdk.kakaonavi.useWebView"
+            android:value="true" />
 
         <activity android:name="com.example.blackice.DRListActivity" />
         <activity android:name="com.example.blackice.SignIn3Activity" />
@@ -46,16 +59,24 @@
         <activity android:name="com.example.blackice.Setting1Activity" />
         <activity android:name="com.example.blackice.Setting2Activity" />
         <activity android:name="com.example.blackice.Setting3Activity" />
-        <activity android:name="com.example.blackice.AroundActivity" />
         <activity android:name="com.example.blackice.MainActivity" />
         <activity android:name="com.example.blackice.LoadingActivity" />
+        <activity android:name="com.example.blackice.WeatherActivity" />
         <activity android:name="com.example.blackice.DRnavi" />
-        <activity android:name="com.example.blackice.WeatherActivity" >
+        <activity android:name="com.example.blackice.AroundActivity" />
+        <activity android:name="com.example.blackice.NaviActivity2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kakao.kakaonavi.KakaoNaviWebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
         </activity>
 
         <service
@@ -140,6 +161,14 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <activity
+            android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:label="@string/com_kakao_login_button"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

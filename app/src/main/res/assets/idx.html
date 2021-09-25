@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <a href="javascript:void(0);" onclick="kakaonavi();">카카오네비</a>
+
+ 
+
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script type='text/javascript'>
+      // 사용할 앱의 JavaScript 키를 설정해 주세요.
+      Kakao.init('63c531d5cfaf5dd48096ae1e9835eede');
+   
+  
+      // 네비로 표기될 정보를 넣어주세요.
+      function kakaonavi(){
+          Kakao.Navi.start({
+              name: "(주)에스아이알소프트",
+              x: 127.032423,
+              y: 37.490928,
+              coordType: 'wgs84'
+          });
+      }
+  </script>
+</body>
+</html>

@@ -96,6 +96,12 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.1.0'
     implementation 'com.squareup.retrofit2:retrofit:2.8.1'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation group: 'com.kakao.sdk', name: 'kakaonavi', version: project.KAKAO_SDK_VERSION
+    compile group: 'com.kakao.sdk', name: 'kakaonavi', version: '1.17.0'
+    implementation "com.kakao.sdk:v2-navi:2.4.2"
+    compile group: 'com.kakao.sdk', name: 'usermgmt', version: KAKAO_SDK_VERSION
+
+
 }
 repositories {
     mavenCentral()

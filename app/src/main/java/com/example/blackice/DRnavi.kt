@@ -35,7 +35,7 @@ class DRnavi : AppCompatActivity() {
 
         time01.setText(formatted)
 
-        firebaseRef.child("Sensor1").child("Distance_bool").addValueEventListener(object : ValueEventListener {
+        firebaseRef.child("Sensor3").child("Distance_bool").addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 //cnt = snapshot.childrenCount.toInt()
                 val dis = snapshot.value.toString()
@@ -54,6 +54,11 @@ class DRnavi : AppCompatActivity() {
                                     warning3.startAnimation(anim)
 
 
+                            }
+                            else
+                            {
+                                warning3.visibility = View.GONE
+                                warning3.clearAnimation()
                             }
                         }
 

@@ -212,12 +212,12 @@
         "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\layout\\activity_drexpect.xml"
     },
     {
-        "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
-        "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\drawable\\button_background.xml"
-    },
-    {
         "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tri.png.flat",
         "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\drawable\\tri.png"
+    },
+    {
+        "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
+        "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\drawable\\button_background.xml"
     },
     {
         "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loading.xml.flat",
@@ -322,6 +322,10 @@
     {
         "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_bot.png.flat",
         "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\drawable\\map_bot.png"
+    },
+    {
+        "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navi2.xml.flat",
+        "source": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\src\\main\\res\\layout\\activity_navi2.xml"
     },
     {
         "merged": "C:\\Android\\hanium\\he_07_30\\21_hi032-he\\21_hi032-he\\app\\build\\intermediates\\res\\merged\\debug\\font_scdream6.otf.flat",
