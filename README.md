@@ -29,15 +29,16 @@
 - 도로인프라에서 전송한 안전 운전 경보를 Head Up Display(HUD), 음성, 핸들 진동 등으로 안내 서비스
 - 경보 내용 : 취약 지점 거리(500m, 200m, 발생 구역) 주의 안내 및 노면 결빙상태 등 정보
 
+<br>
+
 ## 작품 소개 영상
-```
-[ForD소개영상](https://youtu.be/Jxsg_7_UuWs)
-```
+[ForD소개영상] (https://youtu.be/Jxsg_7_UuWs)
 
 ## 프로젝트 보고서
-```
-[ForD결과보고서]: https://www.hanium.or.kr/html/skin/doc.html?fn=20211124085908668.hwp&rs=/html/synap/
-```
+[ForD결과보고서] (https://www.hanium.or.kr/html/skin/doc.html?fn=20211124085908668.hwp&rs=/html/synap/)
+
+<br>
+
 
 ## 서비스 구성도
 
